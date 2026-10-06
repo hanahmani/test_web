@@ -1,0 +1,5194 @@
+{
+ "kpis": [
+  {
+   "id": "ca",
+   "label": "Chiffre d'affaires",
+   "value": "248 650",
+   "unit": "TND",
+   "trend": 12.8,
+   "icon": "wallet",
+   "spark": [
+    132,
+    148,
+    141,
+    166,
+    175,
+    168,
+    192,
+    206,
+    199,
+    224,
+    236,
+    248
+   ]
+  },
+  {
+   "id": "huile",
+   "label": "Huile produite",
+   "value": "18 420",
+   "unit": "L",
+   "trend": 8.4,
+   "icon": "droplet",
+   "spark": [
+    42,
+    61,
+    88,
+    124,
+    168,
+    214,
+    268,
+    320,
+    366,
+    398,
+    412,
+    420
+   ]
+  },
+  {
+   "id": "oliv",
+   "label": "Olives réceptionnées",
+   "value": "126,5",
+   "unit": "T",
+   "trend": 15.2,
+   "icon": "sprout",
+   "spark": [
+    8,
+    18,
+    29,
+    44,
+    58,
+    71,
+    85,
+    96,
+    106,
+    114,
+    121,
+    126
+   ]
+  },
+  {
+   "id": "rdt",
+   "label": "Rendement moyen",
+   "value": "14,58",
+   "unit": "%",
+   "trend": 1.3,
+   "icon": "gauge",
+   "spark": [
+    13.1,
+    13.4,
+    13.2,
+    13.9,
+    14.1,
+    14,
+    14.3,
+    14.5,
+    14.4,
+    14.6,
+    14.5,
+    14.58
+   ]
+  },
+  {
+   "id": "stock",
+   "label": "Stock disponible",
+   "value": "32 850",
+   "unit": "L",
+   "trend": -3.1,
+   "icon": "boxes",
+   "spark": [
+    38,
+    37,
+    36,
+    35,
+    36,
+    34,
+    35,
+    34,
+    33,
+    33,
+    33,
+    32.8
+   ]
+  },
+  {
+   "id": "crea",
+   "label": "Créances clients",
+   "value": "48 250",
+   "unit": "TND",
+   "trend": -6.4,
+   "icon": "receipt",
+   "spark": [
+    62,
+    60,
+    58,
+    57,
+    55,
+    54,
+    53,
+    52,
+    51,
+    50,
+    49,
+    48
+   ]
+  }
+ ],
+ "alertes": [
+  {
+   "niveau": "danger",
+   "titre": "Stock critique",
+   "texte": "Huile d'olive extra vierge 0,75 L — 42 unités, seuil fixé à 150",
+   "date": "Aujourd'hui, 08:12",
+   "cible": "stock",
+   "icon": "alert-triangle"
+  },
+  {
+   "niveau": "warn",
+   "titre": "Contrôle qualité en attente",
+   "texte": "Lot LOT-2026-00145 réceptionné hier, analyse non saisie",
+   "date": "Aujourd'hui, 07:40",
+   "cible": "qualite",
+   "icon": "flask"
+  },
+  {
+   "niveau": "gold",
+   "titre": "Facture échue",
+   "texte": "FAC-2026-00428 — Épicerie El Baraka, 4 820,000 TND, 12 jours de retard",
+   "date": "Hier, 17:05",
+   "cible": "factures",
+   "icon": "receipt"
+  },
+  {
+   "niveau": "ok",
+   "titre": "Production terminée",
+   "texte": "OF-2026-0089 clôturé, rendement 15,24 % sur 6,4 T de Chemlali",
+   "date": "Hier, 15:22",
+   "cible": "production",
+   "icon": "check-circle"
+  },
+  {
+   "niveau": "danger",
+   "titre": "Lot bloqué",
+   "texte": "LOT-2026-00131 non conforme — acidité 1,12 % au-delà du seuil extra vierge",
+   "date": "03/09/2026",
+   "cible": "qualite",
+   "icon": "shield-alert"
+  },
+  {
+   "niveau": "info",
+   "titre": "Maintenance préventive",
+   "texte": "Décanteur centrifuge DEC-02 — vidange prévue dans 3 jours",
+   "date": "02/09/2026",
+   "cible": "maintenance",
+   "icon": "wrench"
+  }
+ ],
+ "producteurs": [
+  {
+   "code": "PRD-014",
+   "nom": "Slim Ben Salem",
+   "tel": "+216 98 214 006",
+   "zone": "Sahline",
+   "parcelles": [
+    "P-114 Oliveraie Nord",
+    "P-115 Oliveraie Sud"
+   ],
+   "varietes": "Chemlali, Chetoui",
+   "apports": 14,
+   "quantite": 38400,
+   "rdt": 14.9,
+   "solde": 4820
+  },
+  {
+   "code": "PRD-027",
+   "nom": "Coopérative Sahline",
+   "tel": "+216 73 356 100",
+   "zone": "Sahline",
+   "parcelles": [
+    "Bloc A",
+    "Bloc B",
+    "Bloc C"
+   ],
+   "varietes": "Chemlali",
+   "apports": 26,
+   "quantite": 61200,
+   "rdt": 14.2,
+   "solde": 0
+  },
+  {
+   "code": "PRD-031",
+   "nom": "Hédi Trabelsi",
+   "tel": "+216 22 640 918",
+   "zone": "Kalâa Kebira",
+   "parcelles": [
+    "Parcelle Est"
+   ],
+   "varietes": "Sahli",
+   "apports": 6,
+   "quantite": 9800,
+   "rdt": 13.4,
+   "solde": 1260
+  },
+  {
+   "code": "PRD-042",
+   "nom": "Domaine El Kantaoui",
+   "tel": "+216 73 246 771",
+   "zone": "Hammam Sousse",
+   "parcelles": [
+    "Sect. 1",
+    "Sect. 2"
+   ],
+   "varietes": "Chetoui, Zalmati",
+   "apports": 11,
+   "quantite": 22600,
+   "rdt": 15.1,
+   "solde": 0
+  },
+  {
+   "code": "PRD-055",
+   "nom": "Mongi Ayari",
+   "tel": "+216 55 118 402",
+   "zone": "Msaken",
+   "parcelles": [
+    "Domaine familial"
+   ],
+   "varietes": "Chemlali",
+   "apports": 4,
+   "quantite": 5100,
+   "rdt": 13.8,
+   "solde": 740
+  }
+ ],
+ "receptions": [
+  {
+   "num": "REC-2026-00313",
+   "date": "05/09/2026 07:20",
+   "producteur": "Coopérative Sahline",
+   "parcelle": "Bloc C",
+   "variete": "Chemlali",
+   "brut": 3880,
+   "tare": 380,
+   "net": 3500,
+   "humidite": 49.6,
+   "acidite": 0.29,
+   "qualite": "Excellente",
+   "lot": "LOT-2026-00146",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00312",
+   "date": "04/09/2026 09:14",
+   "producteur": "Slim Ben Salem",
+   "parcelle": "P-114 Oliveraie Nord",
+   "variete": "Chemlali",
+   "brut": 1250,
+   "tare": 150,
+   "net": 1100,
+   "humidite": 48.2,
+   "acidite": 0.31,
+   "qualite": "Bonne",
+   "lot": "LOT-2026-00145",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00311",
+   "date": "04/09/2026 08:02",
+   "producteur": "Coopérative Sahline",
+   "parcelle": "Bloc B",
+   "variete": "Chemlali",
+   "brut": 4820,
+   "tare": 420,
+   "net": 4400,
+   "humidite": 51,
+   "acidite": 0.28,
+   "qualite": "Excellente",
+   "lot": "LOT-2026-00144",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00310",
+   "date": "03/09/2026 16:38",
+   "producteur": "Domaine El Kantaoui",
+   "parcelle": "Sect. 2",
+   "variete": "Chetoui",
+   "brut": 2640,
+   "tare": 240,
+   "net": 2400,
+   "humidite": 46.4,
+   "acidite": 0.42,
+   "qualite": "Bonne",
+   "lot": "LOT-2026-00143",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00309",
+   "date": "03/09/2026 11:20",
+   "producteur": "Hédi Trabelsi",
+   "parcelle": "Parcelle Est",
+   "variete": "Sahli",
+   "brut": 980,
+   "tare": 120,
+   "net": 860,
+   "humidite": 53.8,
+   "acidite": 0.88,
+   "qualite": "Moyenne",
+   "lot": "LOT-2026-00142",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00308",
+   "date": "02/09/2026 15:55",
+   "producteur": "Mongi Ayari",
+   "parcelle": "Domaine familial",
+   "variete": "Chemlali",
+   "brut": 1640,
+   "tare": 180,
+   "net": 1460,
+   "humidite": 49.1,
+   "acidite": 0.35,
+   "qualite": "Bonne",
+   "lot": "LOT-2026-00141",
+   "statut": "Validée"
+  },
+  {
+   "num": "REC-2026-00307",
+   "date": "02/09/2026 09:30",
+   "producteur": "Coopérative Sahline",
+   "parcelle": "Bloc A",
+   "variete": "Chemlali",
+   "brut": 5100,
+   "tare": 450,
+   "net": 4650,
+   "humidite": 50.2,
+   "acidite": 0.3,
+   "qualite": "Excellente",
+   "lot": "LOT-2026-00140",
+   "statut": "Validée"
+  }
+ ],
+ "ordres": [
+  {
+   "num": "OF-2026-0093",
+   "date": "05/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00146",
+   "prevu": 500,
+   "reel": 511,
+   "rdt": 14.6,
+   "machine": "Ligne B — Alfa Laval",
+   "resp": "Karim Jaziri",
+   "statut": "Terminé",
+   "olives": 3500,
+   "saison": "Saison 2025/2026",
+   "grignons": 1225,
+   "margines": 1575,
+   "noyaux": 270,
+   "pertes": 70,
+   "pile": "PILE-01"
+  },
+  {
+   "num": "OF-2026-0092",
+   "date": "04/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00145",
+   "prevu": 160,
+   "reel": null,
+   "rdt": null,
+   "machine": "Ligne A — Pieralisi",
+   "resp": "Karim Jaziri",
+   "statut": "En production",
+   "olives": 1100,
+   "saison": "Saison 2025/2026",
+   "grignons": 0,
+   "margines": 0,
+   "noyaux": 0,
+   "pertes": 0,
+   "pile": "—"
+  },
+  {
+   "num": "OF-2026-0091",
+   "date": "04/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00144",
+   "prevu": 640,
+   "reel": null,
+   "rdt": null,
+   "machine": "Ligne B — Alfa Laval",
+   "resp": "Karim Jaziri",
+   "statut": "Planifié",
+   "olives": 4400,
+   "saison": "Saison 2025/2026",
+   "grignons": 0,
+   "margines": 0,
+   "noyaux": 0,
+   "pertes": 0,
+   "pile": "—"
+  },
+  {
+   "num": "OF-2026-0090",
+   "date": "03/09/2026",
+   "produit": "Huile vierge en vrac",
+   "lot": "LOT-2026-00143",
+   "prevu": 330,
+   "reel": 342,
+   "rdt": 14.25,
+   "machine": "Ligne A — Pieralisi",
+   "resp": "Nabil Ferchichi",
+   "statut": "Terminé",
+   "olives": 2400,
+   "saison": "Saison 2025/2026",
+   "grignons": 840,
+   "margines": 1080,
+   "noyaux": 185,
+   "pertes": 48,
+   "pile": "PILE-04"
+  },
+  {
+   "num": "OF-2026-0089",
+   "date": "03/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00140",
+   "prevu": 660,
+   "reel": 708.6,
+   "rdt": 15.24,
+   "machine": "Ligne B — Alfa Laval",
+   "resp": "Karim Jaziri",
+   "statut": "Terminé",
+   "olives": 4650,
+   "saison": "Saison 2025/2026",
+   "grignons": 1628,
+   "margines": 2093,
+   "noyaux": 358,
+   "pertes": 93,
+   "pile": "PILE-01"
+  },
+  {
+   "num": "OF-2026-0088",
+   "date": "02/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00141",
+   "prevu": 200,
+   "reel": 206,
+   "rdt": 14.11,
+   "machine": "Ligne A — Pieralisi",
+   "resp": "Nabil Ferchichi",
+   "statut": "Terminé",
+   "olives": 1460,
+   "saison": "Saison 2025/2026",
+   "grignons": 511,
+   "margines": 657,
+   "noyaux": 112,
+   "pertes": 29,
+   "pile": "PILE-02"
+  },
+  {
+   "num": "OF-2026-0087",
+   "date": "01/09/2026",
+   "produit": "Huile lampante",
+   "lot": "LOT-2026-00131",
+   "prevu": 120,
+   "reel": 0,
+   "rdt": null,
+   "machine": "Ligne A — Pieralisi",
+   "resp": "Nabil Ferchichi",
+   "statut": "Annulé",
+   "olives": 1400,
+   "saison": "Saison 2025/2026",
+   "grignons": 0,
+   "margines": 0,
+   "noyaux": 0,
+   "pertes": 0,
+   "pile": "—"
+  },
+  {
+   "num": "OF-2026-0086",
+   "date": "01/09/2026",
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-2026-00138",
+   "prevu": 480,
+   "reel": 492.4,
+   "rdt": 14.62,
+   "machine": "Ligne B — Alfa Laval",
+   "resp": "Karim Jaziri",
+   "statut": "Terminé",
+   "olives": 3368,
+   "saison": "Saison 2025/2026",
+   "grignons": 1179,
+   "margines": 1516,
+   "noyaux": 259,
+   "pertes": 67,
+   "pile": "PILE-04"
+  },
+  {
+   "num": "OF-2026-0085",
+   "date": "31/08/2026",
+   "produit": "Huile vierge en vrac",
+   "lot": "LOT-2026-00136",
+   "prevu": 210,
+   "reel": 198.5,
+   "rdt": 13.24,
+   "machine": "Ligne A — Pieralisi",
+   "resp": "Nabil Ferchichi",
+   "statut": "Terminé",
+   "olives": 1499,
+   "saison": "Saison 2025/2026",
+   "grignons": 525,
+   "margines": 675,
+   "noyaux": 115,
+   "pertes": 30,
+   "pile": "PILE-01"
+  }
+ ],
+ "ofEtapes": [
+  {
+   "t": "Réception des olives",
+   "d": "4 650 kg — LOT-2026-00140, Chemlali, Coopérative Sahline",
+   "h": "03/09 07:10",
+   "st": "done"
+  },
+  {
+   "t": "Nettoyage et effeuillage",
+   "d": "Pertes feuilles et terre : 62 kg",
+   "h": "03/09 07:45",
+   "st": "done"
+  },
+  {
+   "t": "Broyage",
+   "d": "Broyeur à marteaux BRO-01 — grille 6 mm",
+   "h": "03/09 08:20",
+   "st": "done"
+  },
+  {
+   "t": "Malaxage",
+   "d": "32 min à 26 °C — malaxeur MAL-02",
+   "h": "03/09 08:55",
+   "st": "done"
+  },
+  {
+   "t": "Extraction",
+   "d": "Décanteur DEC-02, deux phases",
+   "h": "03/09 09:40",
+   "st": "done"
+  },
+  {
+   "t": "Séparation",
+   "d": "Séparateur centrifuge SEP-01 — 708,6 L d'huile obtenus",
+   "h": "03/09 10:25",
+   "st": "done"
+  },
+  {
+   "t": "Stockage huile",
+   "d": "Cuve inox CV-04 — magasin Huile",
+   "h": "03/09 11:00",
+   "st": "done"
+  },
+  {
+   "t": "Filtration",
+   "d": "Filtre à plaques FIL-01 — 702,1 L après filtration",
+   "h": "03/09 14:30",
+   "st": "current"
+  },
+  {
+   "t": "Conditionnement",
+   "d": "Non démarré",
+   "h": "—",
+   "st": "todo"
+  }
+ ],
+ "lots": [
+  {
+   "num": "LOT-2026-00146",
+   "type": "Olives",
+   "produit": "Olives Chemlali",
+   "origine": "Sahline — Bloc C",
+   "producteur": "Coopérative Sahline",
+   "qte": 3500,
+   "unite": "kg",
+   "reste": 0,
+   "date": "05/09/2026",
+   "qualite": "Conforme"
+  },
+  {
+   "num": "LOT-2026-00145",
+   "type": "Olives",
+   "produit": "Olives Chemlali",
+   "origine": "Sahline — P-114",
+   "producteur": "Slim Ben Salem",
+   "qte": 1100,
+   "unite": "kg",
+   "reste": 1100,
+   "date": "04/09/2026",
+   "qualite": "En attente"
+  },
+  {
+   "num": "LOT-2026-00144",
+   "type": "Olives",
+   "produit": "Olives Chemlali",
+   "origine": "Sahline — Bloc B",
+   "producteur": "Coopérative Sahline",
+   "qte": 4400,
+   "unite": "kg",
+   "reste": 4400,
+   "date": "04/09/2026",
+   "qualite": "Conforme"
+  },
+  {
+   "num": "LOT-2026-00143",
+   "type": "Olives",
+   "produit": "Olives Chetoui",
+   "origine": "Hammam Sousse — Sect. 2",
+   "producteur": "Domaine El Kantaoui",
+   "qte": 2400,
+   "unite": "kg",
+   "reste": 0,
+   "date": "03/09/2026",
+   "qualite": "Conforme"
+  },
+  {
+   "num": "LOT-H-2026-0089",
+   "type": "Huile",
+   "produit": "Huile extra vierge",
+   "origine": "OF-2026-0089",
+   "producteur": "Coopérative Sahline",
+   "qte": 708.6,
+   "unite": "L",
+   "reste": 412.6,
+   "date": "03/09/2026",
+   "qualite": "Conforme"
+  },
+  {
+   "num": "LOT-2026-00131",
+   "type": "Olives",
+   "produit": "Olives Sahli",
+   "origine": "Msaken — Domaine familial",
+   "producteur": "Mongi Ayari",
+   "qte": 1400,
+   "unite": "kg",
+   "reste": 1400,
+   "date": "31/08/2026",
+   "qualite": "Non conforme"
+  }
+ ],
+ "qualite": [
+  {
+   "lot": "LOT-H-2026-0089",
+   "produit": "Huile extra vierge",
+   "acidite": 0.24,
+   "peroxyde": 8.4,
+   "humidite": 0.12,
+   "impuretes": 0.04,
+   "res": "Conforme",
+   "date": "03/09/2026",
+   "analyste": "Sonia Kacem"
+  },
+  {
+   "lot": "LOT-2026-00144",
+   "produit": "Olives Chemlali",
+   "acidite": 0.28,
+   "peroxyde": null,
+   "humidite": 51,
+   "impuretes": 1.2,
+   "res": "Conforme",
+   "date": "04/09/2026",
+   "analyste": "Sonia Kacem"
+  },
+  {
+   "lot": "LOT-2026-00145",
+   "produit": "Olives Chemlali",
+   "acidite": null,
+   "peroxyde": null,
+   "humidite": null,
+   "impuretes": null,
+   "res": "En attente",
+   "date": "—",
+   "analyste": "—"
+  },
+  {
+   "lot": "LOT-2026-00131",
+   "produit": "Olives Sahli",
+   "acidite": 1.12,
+   "peroxyde": null,
+   "humidite": 56.4,
+   "impuretes": 3.8,
+   "res": "Non conforme",
+   "date": "31/08/2026",
+   "analyste": "Sonia Kacem"
+  },
+  {
+   "lot": "LOT-H-2026-0090",
+   "produit": "Huile vierge",
+   "acidite": 0.62,
+   "peroxyde": 11.2,
+   "humidite": 0.14,
+   "impuretes": 0.06,
+   "res": "Conforme",
+   "date": "03/09/2026",
+   "analyste": "Sonia Kacem"
+  },
+  {
+   "lot": "LOT-H-2026-0086",
+   "produit": "Huile extra vierge",
+   "acidite": 0.31,
+   "peroxyde": 9.1,
+   "humidite": 0.11,
+   "impuretes": 0.03,
+   "res": "Conforme",
+   "date": "01/09/2026",
+   "analyste": "Sonia Kacem"
+  }
+ ],
+ "produits": [
+  {
+   "code": "HEV-075",
+   "nom": "Huile extra vierge — 0,75 L",
+   "cat": "Bouteilles",
+   "prix": 18.5,
+   "stock": 42,
+   "unite": "bt",
+   "vol": 0.75
+  },
+  {
+   "code": "HEV-100",
+   "nom": "Huile extra vierge — 1 L",
+   "cat": "Bouteilles",
+   "prix": 24,
+   "stock": 318,
+   "unite": "bt",
+   "vol": 1
+  },
+  {
+   "code": "HEV-200",
+   "nom": "Huile extra vierge — 2 L",
+   "cat": "Bidons",
+   "prix": 46.5,
+   "stock": 164,
+   "unite": "bd",
+   "vol": 2
+  },
+  {
+   "code": "HOV-500",
+   "nom": "Huile d'olive — 5 L",
+   "cat": "Bidons",
+   "prix": 104,
+   "stock": 96,
+   "unite": "bd",
+   "vol": 5
+  },
+  {
+   "code": "HVR-001",
+   "nom": "Huile en vrac — au litre",
+   "cat": "Vrac",
+   "prix": 21,
+   "stock": 32850,
+   "unite": "L",
+   "vol": 1
+  },
+  {
+   "code": "HVR-025",
+   "nom": "Bidon 25 L",
+   "cat": "Vrac",
+   "prix": 498,
+   "stock": 38,
+   "unite": "bd",
+   "vol": 25
+  },
+  {
+   "code": "HVI-100",
+   "nom": "Huile vierge — 1 L",
+   "cat": "Bouteilles",
+   "prix": 19.5,
+   "stock": 212,
+   "unite": "bt",
+   "vol": 1
+  },
+  {
+   "code": "HEV-050",
+   "nom": "Huile extra vierge — 0,5 L",
+   "cat": "Bouteilles",
+   "prix": 13.2,
+   "stock": 276,
+   "unite": "bt",
+   "vol": 0.5
+  },
+  {
+   "code": "COF-001",
+   "nom": "Coffret dégustation 3×250 ml",
+   "cat": "Coffrets",
+   "prix": 39,
+   "stock": 54,
+   "unite": "cf",
+   "vol": 0.75
+  },
+  {
+   "code": "SAV-001",
+   "nom": "Savon à l'huile d'olive",
+   "cat": "Coffrets",
+   "prix": 4.5,
+   "stock": 410,
+   "unite": "pc",
+   "vol": 0
+  }
+ ],
+ "clients": [
+  {
+   "code": "CLI-0012",
+   "nom": "Sté Medoil Export",
+   "tel": "+216 71 890 442",
+   "ville": "Tunis",
+   "derniere": "04/09/2026",
+   "ca": 62400,
+   "encours": 12400,
+   "limite": 40000,
+   "statut": "Actif",
+   "typeC": "Vente",
+   "mf": "0894000/B/N/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0024",
+   "nom": "GMS Carrefour Sousse",
+   "tel": "+216 73 202 900",
+   "ville": "Sousse",
+   "derniere": "04/09/2026",
+   "ca": 41850,
+   "encours": 9860,
+   "limite": 30000,
+   "statut": "Actif",
+   "typeC": "Vente",
+   "mf": "0894211/B/N/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0031",
+   "nom": "Épicerie El Baraka",
+   "tel": "+216 96 442 118",
+   "ville": "Msaken",
+   "derniere": "02/09/2026",
+   "ca": 28600,
+   "encours": 4820,
+   "limite": 5000,
+   "statut": "Retard",
+   "typeC": "Vente",
+   "mf": "0894422/B/N/000",
+   "soldeInitial": 1200
+  },
+  {
+   "code": "CLI-0045",
+   "nom": "Restaurant Le Pressoir",
+   "tel": "+216 73 348 210",
+   "ville": "Hammam Sousse",
+   "derniere": "01/09/2026",
+   "ca": 19240,
+   "encours": 0,
+   "limite": 10000,
+   "statut": "Actif",
+   "typeC": "Trituration",
+   "mf": "0894633/B/N/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0058",
+   "nom": "Hôtel Marhaba Palace",
+   "tel": "+216 73 246 477",
+   "ville": "Sousse",
+   "derniere": "28/08/2026",
+   "ca": 16420,
+   "encours": 6200,
+   "limite": 15000,
+   "statut": "Actif",
+   "typeC": "Vente",
+   "mf": "0894844/B/N/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0061",
+   "nom": "Sté Sud Distribution",
+   "tel": "+216 75 621 004",
+   "ville": "Sfax",
+   "derniere": "24/08/2026",
+   "ca": 11980,
+   "encours": 0,
+   "limite": 12000,
+   "statut": "Actif",
+   "typeC": "Vente",
+   "mf": "0895055/B/N/000",
+   "soldeInitial": -450
+  },
+  {
+   "code": "CLI-0077",
+   "nom": "Boutique Terroir Médina",
+   "tel": "+216 22 908 331",
+   "ville": "Sousse",
+   "derniere": "18/08/2026",
+   "ca": 6240,
+   "encours": 1180,
+   "limite": 3000,
+   "statut": "Actif",
+   "typeC": "Passager",
+   "mf": "0895266/B/N/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0090",
+   "nom": "Client comptoir",
+   "tel": "—",
+   "ville": "—",
+   "derniere": "05/09/2026",
+   "ca": 16980,
+   "encours": 0,
+   "limite": 0,
+   "statut": "Actif",
+   "typeC": "Passager",
+   "mf": "—",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0101",
+   "nom": "Sté Grignons du Sahel",
+   "tel": "+216 73 447 200",
+   "ville": "Msaken",
+   "derniere": "04/09/2026",
+   "ca": 18400,
+   "encours": 5200,
+   "limite": 20000,
+   "statut": "Actif",
+   "typeC": "Grignon",
+   "mf": "0774112/A/M/000",
+   "soldeInitial": 0
+  },
+  {
+   "code": "CLI-0102",
+   "nom": "Ferme Ouled Amor",
+   "tel": "+216 22 660 118",
+   "ville": "Kalâa Kebira",
+   "derniere": "03/09/2026",
+   "ca": 9600,
+   "encours": 0,
+   "limite": 10000,
+   "statut": "Actif",
+   "typeC": "Trituration",
+   "mf": "0118447/B/N/000",
+   "soldeInitial": 0
+  }
+ ],
+ "commandes": [
+  {
+   "num": "CMD-2026-00284",
+   "client": "Sté Medoil Export",
+   "date": "04/09/2026",
+   "montant": 18600,
+   "livre": "Partielle",
+   "statut": "En préparation"
+  },
+  {
+   "num": "CMD-2026-00283",
+   "client": "GMS Carrefour Sousse",
+   "date": "03/09/2026",
+   "montant": 9240,
+   "livre": "Totale",
+   "statut": "Livrée"
+  },
+  {
+   "num": "CMD-2026-00282",
+   "client": "Hôtel Marhaba Palace",
+   "date": "02/09/2026",
+   "montant": 6200,
+   "livre": "Totale",
+   "statut": "Facturée"
+  },
+  {
+   "num": "CMD-2026-00281",
+   "client": "Épicerie El Baraka",
+   "date": "01/09/2026",
+   "montant": 4820,
+   "livre": "Totale",
+   "statut": "Facturée"
+  },
+  {
+   "num": "CMD-2026-00280",
+   "client": "Restaurant Le Pressoir",
+   "date": "31/08/2026",
+   "montant": 2340,
+   "livre": "Totale",
+   "statut": "Soldée"
+  }
+ ],
+ "livraisons": [
+  {
+   "num": "BL-2026-00618",
+   "client": "GMS Carrefour Sousse",
+   "date": "05/09/2026",
+   "lots": "LOT-H-2026-0089",
+   "colis": 82,
+   "transporteur": "Trans Olive",
+   "statut": "Livrée",
+   "total": 9240,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BL-2026-00617",
+   "client": "Sté Medoil Export",
+   "date": "04/09/2026",
+   "lots": "LOT-H-2026-0086",
+   "colis": 210,
+   "transporteur": "Véhicule 148 TU 3620",
+   "statut": "En cours",
+   "total": 18600,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BL-2026-00612",
+   "client": "Épicerie El Baraka",
+   "date": "04/09/2026",
+   "lots": "LOT-H-2026-0089",
+   "colis": 36,
+   "transporteur": "Véhicule 92 TU 4471",
+   "statut": "Livrée",
+   "total": 4820,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BL-2026-00609",
+   "client": "Hôtel Marhaba Palace",
+   "date": "02/09/2026",
+   "lots": "LOT-H-2026-0086",
+   "colis": 48,
+   "transporteur": "Trans Olive",
+   "statut": "Livrée",
+   "total": 6200,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BL-G-00121",
+   "client": "Sté Grignons du Sahel",
+   "date": "05/09/2026",
+   "lots": "—",
+   "colis": 0,
+   "transporteur": "Trans Olive",
+   "statut": "Livrée",
+   "total": 992,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BL-N-00042",
+   "client": "Sté Grignons du Sahel",
+   "date": "04/09/2026",
+   "lots": "—",
+   "colis": 0,
+   "transporteur": "Trans Olive",
+   "statut": "Livrée",
+   "total": 704,
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "factures": [
+  {
+   "num": "FAC-2026-00434",
+   "client": "GMS Carrefour Sousse",
+   "date": "05/09/2026",
+   "ht": 7764.706,
+   "tva": 1475.294,
+   "ttc": 9240,
+   "echeance": "05/10/2026",
+   "paye": 0,
+   "tranches": []
+  },
+  {
+   "num": "FAC-2026-00431",
+   "client": "Épicerie El Baraka",
+   "date": "01/09/2026",
+   "ht": 4050.42,
+   "tva": 769.58,
+   "ttc": 4820,
+   "echeance": "24/08/2026",
+   "paye": 0,
+   "tranches": []
+  },
+  {
+   "num": "FAC-2026-00430",
+   "client": "Hôtel Marhaba Palace",
+   "date": "02/09/2026",
+   "ht": 5210.084,
+   "tva": 989.916,
+   "ttc": 6200,
+   "echeance": "02/10/2026",
+   "paye": 3000,
+   "tranches": [
+    {
+     "n": 1,
+     "date": "04/09/2026",
+     "montant": 3000,
+     "mode": "Chèque",
+     "ref": "CHQ-441207",
+     "statut": "Payée"
+    },
+    {
+     "n": 2,
+     "date": "02/10/2026",
+     "montant": 3200,
+     "mode": "Virement",
+     "ref": "—",
+     "statut": "Prévue"
+    }
+   ]
+  },
+  {
+   "num": "FAC-2026-00428",
+   "client": "Sté Medoil Export",
+   "date": "28/08/2026",
+   "ht": 15630.252,
+   "tva": 2969.748,
+   "ttc": 18600,
+   "echeance": "27/09/2026",
+   "paye": 6000,
+   "tranches": [
+    {
+     "n": 1,
+     "date": "28/08/2026",
+     "montant": 6000,
+     "montantPrevu": 6000,
+     "mode": "Virement",
+     "ref": "VIR-2026-0188",
+     "statut": "Payée"
+    },
+    {
+     "n": 2,
+     "date": "15/09/2026",
+     "montant": 6600,
+     "mode": "Chèque",
+     "ref": "CHQ-118904",
+     "statut": "Prévue"
+    },
+    {
+     "n": 3,
+     "date": "27/09/2026",
+     "montant": 6000,
+     "mode": "Virement",
+     "ref": "—",
+     "statut": "Prévue"
+    }
+   ]
+  },
+  {
+   "num": "FAC-2026-00426",
+   "client": "Restaurant Le Pressoir",
+   "date": "31/08/2026",
+   "ht": 1966.387,
+   "tva": 373.613,
+   "ttc": 2340,
+   "echeance": "30/09/2026",
+   "paye": 2340,
+   "tranches": [
+    {
+     "n": 1,
+     "date": "05/09/2026",
+     "montant": 2340,
+     "mode": "Espèces",
+     "ref": "—",
+     "statut": "Payée"
+    }
+   ]
+  },
+  {
+   "num": "FAC-2026-00421",
+   "client": "Sté Sud Distribution",
+   "date": "24/08/2026",
+   "ht": 9008.403,
+   "tva": 1711.597,
+   "ttc": 10720,
+   "echeance": "23/09/2026",
+   "paye": 10720,
+   "tranches": [
+    {
+     "n": 1,
+     "date": "02/09/2026",
+     "montant": 10720,
+     "mode": "Virement",
+     "ref": "VIR-2026-0175",
+     "statut": "Payée"
+    }
+   ]
+  },
+  {
+   "num": "FAC-2026-00418",
+   "client": "Boutique Terroir Médina",
+   "date": "18/08/2026",
+   "ht": 991.597,
+   "tva": 188.403,
+   "ttc": 1180,
+   "echeance": "17/09/2026",
+   "paye": 0,
+   "tranches": []
+  }
+ ],
+ "tickets": [
+  {
+   "num": "TKT-2026-001257",
+   "date": "05/09/2026",
+   "heure": "14:02",
+   "client": "Client comptoir",
+   "articles": 6,
+   "mode": "Espèces",
+   "ht": 120,
+   "tva": 22.8,
+   "ttc": 142.8,
+   "lignes": [
+    {
+     "nom": "Huile extra vierge — 0,75 L",
+     "qte": 4,
+     "prix": 18.5
+    },
+    {
+     "nom": "Huile extra vierge — 1 L",
+     "qte": 2,
+     "prix": 24
+    }
+   ]
+  },
+  {
+   "num": "TKT-2026-001256",
+   "date": "05/09/2026",
+   "heure": "13:41",
+   "client": "Boutique Terroir Médina",
+   "articles": 12,
+   "mode": "Carte",
+   "ht": 239.16,
+   "tva": 45.24,
+   "ttc": 284.4,
+   "lignes": [
+    {
+     "nom": "Huile extra vierge — 1 L",
+     "qte": 12,
+     "prix": 19.93
+    }
+   ]
+  },
+  {
+   "num": "TKT-2026-001255",
+   "date": "05/09/2026",
+   "heure": "12:18",
+   "client": "Client comptoir",
+   "articles": 2,
+   "mode": "Espèces",
+   "ht": 40.336,
+   "tva": 7.664,
+   "ttc": 48,
+   "lignes": [
+    {
+     "nom": "Huile extra vierge — 1 L",
+     "qte": 2,
+     "prix": 20.17
+    }
+   ]
+  },
+  {
+   "num": "TKT-2026-001254",
+   "date": "05/09/2026",
+   "heure": "11:52",
+   "client": "Restaurant Le Pressoir",
+   "articles": 24,
+   "mode": "Chèque",
+   "ht": 927.731,
+   "tva": 176.269,
+   "ttc": 1104,
+   "lignes": [
+    {
+     "nom": "Huile d'olive — 5 L",
+     "qte": 12,
+     "prix": 77.31
+    }
+   ]
+  },
+  {
+   "num": "TKT-2026-001253",
+   "date": "05/09/2026",
+   "heure": "10:30",
+   "client": "Client comptoir",
+   "articles": 1,
+   "mode": "Espèces",
+   "ht": 87.395,
+   "tva": 16.605,
+   "ttc": 104,
+   "lignes": [
+    {
+     "nom": "Huile d'olive — 5 L",
+     "qte": 1,
+     "prix": 87.39
+    }
+   ]
+  }
+ ],
+ "cheques": [
+  {
+   "num": "CHQ-441207",
+   "banque": "BIAT",
+   "emetteur": "Hôtel Marhaba Palace",
+   "emission": "04/09/2026",
+   "echeance": "04/10/2026",
+   "montant": 3000,
+   "facture": "FAC-2026-00430",
+   "statut": "Déposé"
+  },
+  {
+   "num": "CHQ-118904",
+   "banque": "Amen Bank",
+   "emetteur": "Sté Medoil Export",
+   "emission": "28/08/2026",
+   "echeance": "15/09/2026",
+   "montant": 6600,
+   "facture": "FAC-2026-00428",
+   "statut": "En attente"
+  },
+  {
+   "num": "CHQ-772140",
+   "banque": "STB",
+   "emetteur": "Restaurant Le Pressoir",
+   "emission": "12/08/2026",
+   "echeance": "25/08/2026",
+   "montant": 1840,
+   "facture": "FAC-2026-00415",
+   "statut": "Encaissé"
+  },
+  {
+   "num": "CHQ-660311",
+   "banque": "BNA",
+   "emetteur": "Épicerie El Baraka",
+   "emission": "02/08/2026",
+   "echeance": "20/08/2026",
+   "montant": 1200,
+   "facture": "FAC-2026-00409",
+   "statut": "Rejeté"
+  }
+ ],
+ "paiements": [
+  {
+   "num": "REG-2026-00512",
+   "date": "05/09/2026",
+   "tiers": "Restaurant Le Pressoir",
+   "type": "Client",
+   "mode": "Espèces",
+   "montant": 2340,
+   "doc": "FAC-2026-00426"
+  },
+  {
+   "num": "REG-2026-00511",
+   "date": "04/09/2026",
+   "tiers": "Hôtel Marhaba Palace",
+   "type": "Client",
+   "mode": "Chèque",
+   "montant": 3000,
+   "doc": "FAC-2026-00430"
+  },
+  {
+   "num": "REG-2026-00509",
+   "date": "03/09/2026",
+   "tiers": "Emballages Sud SA",
+   "type": "Fournisseur",
+   "mode": "Virement",
+   "montant": -8420,
+   "doc": "FF-2026-00188"
+  },
+  {
+   "num": "REG-2026-00507",
+   "date": "02/09/2026",
+   "tiers": "Sté Sud Distribution",
+   "type": "Client",
+   "mode": "Virement",
+   "montant": 10720,
+   "doc": "FAC-2026-00421"
+  },
+  {
+   "num": "REG-2026-00504",
+   "date": "01/09/2026",
+   "tiers": "Coopérative Sahline",
+   "type": "Producteur",
+   "mode": "Virement",
+   "montant": -24600,
+   "doc": "Apports août"
+  }
+ ],
+ "depenses": [
+  {
+   "date": "04/09/2026",
+   "cat": "Électricité",
+   "montant": 3840,
+   "tiers": "STEG",
+   "mode": "Virement",
+   "just": true,
+   "num": "DEP-2026-0120",
+   "designation": "Électricité — STEG",
+   "fournisseur": "STEG",
+   "pieces": [
+    {
+     "mode": "Virement",
+     "montant": 3840,
+     "remarque": ""
+    }
+   ],
+   "paye": 3840
+  },
+  {
+   "date": "03/09/2026",
+   "cat": "Carburant",
+   "montant": 920.5,
+   "tiers": "Station Agil",
+   "mode": "Espèces",
+   "just": true,
+   "num": "DEP-2026-0121",
+   "designation": "Carburant — Station Agil",
+   "fournisseur": "Station Agil",
+   "pieces": [
+    {
+     "mode": "Espèce",
+     "montant": 920.5,
+     "remarque": ""
+    }
+   ],
+   "paye": 920.5
+  },
+  {
+   "date": "02/09/2026",
+   "cat": "Maintenance",
+   "montant": 2450,
+   "tiers": "Méca Industrie",
+   "mode": "Chèque",
+   "just": true,
+   "num": "DEP-2026-0122",
+   "designation": "Maintenance — Méca Industrie",
+   "fournisseur": "Méca Industrie",
+   "pieces": [
+    {
+     "mode": "Chèque",
+     "montant": 2450,
+     "remarque": ""
+    }
+   ],
+   "paye": 2450
+  },
+  {
+   "date": "01/09/2026",
+   "cat": "Emballages",
+   "montant": 8420,
+   "tiers": "Emballages Sud SA",
+   "mode": "Virement",
+   "just": true,
+   "num": "DEP-2026-0123",
+   "designation": "Emballages — Emballages Sud SA",
+   "fournisseur": "Emballages Sud SA",
+   "pieces": [
+    {
+     "mode": "Virement",
+     "montant": 8420,
+     "remarque": ""
+    }
+   ],
+   "paye": 8420
+  },
+  {
+   "date": "31/08/2026",
+   "cat": "Salaires",
+   "montant": 18600,
+   "tiers": "Personnel saisonnier",
+   "mode": "Virement",
+   "just": false,
+   "num": "DEP-2026-0124",
+   "designation": "Salaires — Personnel saisonnier",
+   "fournisseur": "Personnel saisonnier",
+   "pieces": [
+    {
+     "mode": "Virement",
+     "montant": 18600,
+     "remarque": ""
+    }
+   ],
+   "paye": 18600
+  },
+  {
+   "date": "30/08/2026",
+   "cat": "Transport",
+   "montant": 1240,
+   "tiers": "Trans Olive",
+   "mode": "Espèces",
+   "just": true,
+   "num": "DEP-2026-0125",
+   "designation": "Transport — Trans Olive",
+   "fournisseur": "Trans Olive",
+   "pieces": [
+    {
+     "mode": "Espèce",
+     "montant": 1240,
+     "remarque": ""
+    }
+   ],
+   "paye": 1240
+  }
+ ],
+ "stockCards": [
+  {
+   "label": "Huile en vrac",
+   "v": "32 850",
+   "u": "L",
+   "icon": "droplet",
+   "d": "6 cuves · 4 lots actifs"
+  },
+  {
+   "label": "Produits finis",
+   "v": "12 450",
+   "u": "unités",
+   "icon": "box",
+   "d": "9 références · 2 sous seuil"
+  },
+  {
+   "label": "Olives",
+   "v": "8 240",
+   "u": "kg",
+   "icon": "sprout",
+   "d": "3 lots en attente de trituration"
+  },
+  {
+   "label": "Emballages",
+   "v": "45 820",
+   "u": "unités",
+   "icon": "package",
+   "d": "Bouteilles, bidons, capsules, étiquettes"
+  }
+ ],
+ "stocks": [
+  {
+   "produit": "Huile extra vierge 0,75 L",
+   "lot": "LOT-H-2026-0089",
+   "magasin": "Produits finis",
+   "qte": 42,
+   "unite": "bt",
+   "min": 150,
+   "statut": "Critique"
+  },
+  {
+   "produit": "Huile extra vierge 1 L",
+   "lot": "LOT-H-2026-0089",
+   "magasin": "Produits finis",
+   "qte": 318,
+   "unite": "bt",
+   "min": 200,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Huile extra vierge 2 L",
+   "lot": "LOT-H-2026-0086",
+   "magasin": "Produits finis",
+   "qte": 164,
+   "unite": "bd",
+   "min": 80,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Huile d'olive 5 L",
+   "lot": "LOT-H-2026-0086",
+   "magasin": "Produits finis",
+   "qte": 96,
+   "unite": "bd",
+   "min": 100,
+   "statut": "Faible"
+  },
+  {
+   "produit": "Huile extra vierge en vrac",
+   "lot": "LOT-H-2026-0089",
+   "magasin": "Magasin huile",
+   "qte": 12460,
+   "unite": "L",
+   "min": 5000,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Huile vierge en vrac",
+   "lot": "LOT-H-2026-0090",
+   "magasin": "Magasin huile",
+   "qte": 20390,
+   "unite": "L",
+   "min": 3000,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Olives Chemlali",
+   "lot": "LOT-2026-00145",
+   "magasin": "Matières premières",
+   "qte": 1100,
+   "unite": "kg",
+   "min": 0,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Olives Sahli",
+   "lot": "LOT-2026-00131",
+   "magasin": "Matières premières",
+   "qte": 1400,
+   "unite": "kg",
+   "min": 0,
+   "statut": "Bloqué"
+  },
+  {
+   "produit": "Bouteille verre 0,75 L",
+   "lot": "—",
+   "magasin": "Emballages",
+   "qte": 8420,
+   "unite": "pc",
+   "min": 3000,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Capsule inviolable",
+   "lot": "—",
+   "magasin": "Emballages",
+   "qte": 2140,
+   "unite": "pc",
+   "min": 5000,
+   "statut": "Faible"
+  },
+  {
+   "produit": "Grignons d'olive",
+   "lot": "—",
+   "magasin": "Aire sous-produits",
+   "qte": 5908,
+   "unite": "kg",
+   "min": 0,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Noyaux concassés",
+   "lot": "—",
+   "magasin": "Aire sous-produits",
+   "qte": 1299,
+   "unite": "kg",
+   "min": 0,
+   "statut": "Normal"
+  },
+  {
+   "produit": "Margines",
+   "lot": "—",
+   "magasin": "Bassin de margines",
+   "qte": 7596,
+   "unite": "L",
+   "min": 0,
+   "statut": "Normal"
+  }
+ ],
+ "mouvements": [
+  {
+   "date": "05/09/2026 14:35",
+   "sens": "Sortie",
+   "produit": "Huile extra vierge 0,75 L",
+   "qte": 4,
+   "lot": "LOT-H-2026-0089",
+   "magasin": "Produits finis",
+   "motif": "Vente comptoir",
+   "user": "Mohamed Ben Chaaben"
+  },
+  {
+   "date": "05/09/2026 11:20",
+   "sens": "Entrée",
+   "produit": "Huile extra vierge en vrac",
+   "qte": 492.4,
+   "lot": "LOT-H-2026-0086",
+   "magasin": "Magasin huile",
+   "motif": "Production OF-2026-0086",
+   "user": "Karim Jaziri"
+  },
+  {
+   "date": "04/09/2026 16:02",
+   "sens": "Sortie",
+   "produit": "Bouteille verre 0,75 L",
+   "qte": 240,
+   "lot": "—",
+   "magasin": "Emballages",
+   "motif": "Conditionnement COND-2026-0074",
+   "user": "Nabil Ferchichi"
+  },
+  {
+   "date": "04/09/2026 09:14",
+   "sens": "Entrée",
+   "produit": "Olives Chemlali",
+   "qte": 1100,
+   "lot": "LOT-2026-00145",
+   "magasin": "Matières premières",
+   "motif": "Réception REC-2026-00312",
+   "user": "Amine Gharbi"
+  },
+  {
+   "date": "03/09/2026 10:25",
+   "sens": "Sortie",
+   "produit": "Olives Chemlali",
+   "qte": 4650,
+   "lot": "LOT-2026-00140",
+   "magasin": "Matières premières",
+   "motif": "Consommation OF-2026-0089",
+   "user": "Karim Jaziri"
+  }
+ ],
+ "magasins": [
+  {
+   "code": "MAG-01",
+   "nom": "Matières premières",
+   "resp": "Amine Gharbi",
+   "articles": 6,
+   "valeur": 38400
+  },
+  {
+   "code": "MAG-02",
+   "nom": "Magasin huile",
+   "resp": "Karim Jaziri",
+   "articles": 4,
+   "valeur": 412600
+  },
+  {
+   "code": "MAG-03",
+   "nom": "Produits finis",
+   "resp": "Sonia Kacem",
+   "articles": 9,
+   "valeur": 186200
+  },
+  {
+   "code": "MAG-04",
+   "nom": "Emballages",
+   "resp": "Amine Gharbi",
+   "articles": 12,
+   "valeur": 42800
+  },
+  {
+   "code": "MAG-05",
+   "nom": "Pièces de rechange",
+   "resp": "Fethi Belhadj",
+   "articles": 34,
+   "valeur": 18600
+  }
+ ],
+ "fournisseurs": [
+  {
+   "code": "FRN-004",
+   "nom": "Emballages Sud SA",
+   "contact": "Ridha Manai",
+   "tel": "+216 74 402 118",
+   "ville": "Sfax",
+   "achats": 14600,
+   "encours": 8420,
+   "conditions": "30 jours",
+   "numero": "0001",
+   "typeF": "Divers",
+   "identifiant": "04471882",
+   "adresse": "Zone industrielle, Sfax",
+   "matricules": []
+  },
+  {
+   "code": "FRN-009",
+   "nom": "Méca Industrie",
+   "contact": "Fethi Belhadj",
+   "tel": "+216 73 331 020",
+   "ville": "Sousse",
+   "achats": 9800,
+   "encours": 0,
+   "conditions": "Comptant",
+   "numero": "0002",
+   "typeF": "Divers",
+   "identifiant": "07714203",
+   "adresse": "Route de Tunis, Sousse",
+   "matricules": []
+  },
+  {
+   "code": "FRN-012",
+   "nom": "Trans Olive",
+   "contact": "Slim Ouertani",
+   "tel": "+216 98 114 220",
+   "ville": "Sousse",
+   "achats": 8300,
+   "encours": 1240,
+   "conditions": "15 jours",
+   "numero": "0003",
+   "typeF": "Divers",
+   "identifiant": "09112446",
+   "adresse": "Sahline, Monastir",
+   "matricules": [
+    "148 TU 3620",
+    "92 TU 4471"
+   ]
+  },
+  {
+   "code": "FRN-018",
+   "nom": "Étiquettes Médina",
+   "contact": "Ines Karray",
+   "tel": "+216 71 220 448",
+   "ville": "Tunis",
+   "achats": 6400,
+   "encours": 0,
+   "conditions": "30 jours",
+   "numero": "0004",
+   "typeF": "Divers",
+   "identifiant": "01220448",
+   "adresse": "Rue de Marseille, Tunis",
+   "matricules": []
+  },
+  {
+   "code": "FRN-021",
+   "nom": "STEG",
+   "contact": "—",
+   "tel": "—",
+   "ville": "Sousse",
+   "achats": 22400,
+   "encours": 3840,
+   "conditions": "Échéancier",
+   "numero": "0005",
+   "typeF": "Divers",
+   "identifiant": "00000021",
+   "adresse": "Avenue Léopold Sédar Senghor, Sousse",
+   "matricules": []
+  },
+  {
+   "code": "PRD-014",
+   "numero": "100",
+   "nom": "Slim Ben Salem",
+   "contact": "Slim Ben Salem",
+   "tel": "+216 98 214 006",
+   "ville": "Sahline",
+   "typeF": "Olive",
+   "identifiant": "01470000",
+   "adresse": "Sahline, Sousse",
+   "matricules": [
+    "148 TU 3620",
+    "210 TU 1108"
+   ],
+   "conditions": "Comptant",
+   "achats": 0,
+   "encours": 4820,
+   "statut": "Actif"
+  },
+  {
+   "code": "PRD-027",
+   "numero": "101",
+   "nom": "Coopérative Sahline",
+   "contact": "Coopérative Sahline",
+   "tel": "+216 73 356 100",
+   "ville": "Sahline",
+   "typeF": "Olive",
+   "identifiant": "01470137",
+   "adresse": "Sahline, Sousse",
+   "matricules": [
+    "92 TU 4471"
+   ],
+   "conditions": "Comptant",
+   "achats": 0,
+   "encours": 0,
+   "statut": "Actif"
+  },
+  {
+   "code": "PRD-031",
+   "numero": "102",
+   "nom": "Hédi Trabelsi",
+   "contact": "Hédi Trabelsi",
+   "tel": "+216 22 640 918",
+   "ville": "Kalâa Kebira",
+   "typeF": "Olive",
+   "identifiant": "01470274",
+   "adresse": "Kalâa Kebira, Sousse",
+   "matricules": [
+    "331 TU 2204"
+   ],
+   "conditions": "Comptant",
+   "achats": 0,
+   "encours": 1260,
+   "statut": "Actif"
+  },
+  {
+   "code": "PRD-042",
+   "numero": "103",
+   "nom": "Domaine El Kantaoui",
+   "contact": "Domaine El Kantaoui",
+   "tel": "+216 73 246 771",
+   "ville": "Hammam Sousse",
+   "typeF": "Olive",
+   "identifiant": "01470411",
+   "adresse": "Hammam Sousse, Sousse",
+   "matricules": [
+    "148 TU 3620"
+   ],
+   "conditions": "Comptant",
+   "achats": 0,
+   "encours": 0,
+   "statut": "Actif"
+  },
+  {
+   "code": "PRD-055",
+   "numero": "104",
+   "nom": "Mongi Ayari",
+   "contact": "Mongi Ayari",
+   "tel": "+216 55 118 402",
+   "ville": "Msaken",
+   "typeF": "Olive",
+   "identifiant": "01470548",
+   "adresse": "Msaken, Sousse",
+   "matricules": [
+    "512 TU 7719"
+   ],
+   "conditions": "Comptant",
+   "achats": 0,
+   "encours": 740,
+   "statut": "Actif"
+  }
+ ],
+ "achats": [
+  {
+   "num": "BC-2026-00142",
+   "fournisseur": "Emballages Sud SA",
+   "date": "01/09/2026",
+   "montant": 8420,
+   "recu": "Totale",
+   "statut": "Facturée"
+  },
+  {
+   "num": "BC-2026-00141",
+   "fournisseur": "Étiquettes Médina",
+   "date": "30/08/2026",
+   "montant": 2640,
+   "recu": "Partielle",
+   "statut": "En cours"
+  },
+  {
+   "num": "BC-2026-00140",
+   "fournisseur": "Méca Industrie",
+   "date": "28/08/2026",
+   "montant": 2450,
+   "recu": "Totale",
+   "statut": "Payée"
+  },
+  {
+   "num": "DA-2026-00088",
+   "fournisseur": "—",
+   "date": "04/09/2026",
+   "montant": 0,
+   "recu": "—",
+   "statut": "Demande"
+  }
+ ],
+ "equipements": [
+  {
+   "code": "BRO-01",
+   "nom": "Broyeur à marteaux",
+   "marque": "Pieralisi",
+   "etat": "En service",
+   "loc": "Ligne A",
+   "maint": "12/09/2026"
+  },
+  {
+   "code": "MAL-02",
+   "nom": "Malaxeur 3 corps",
+   "marque": "Pieralisi",
+   "etat": "En service",
+   "loc": "Ligne A",
+   "maint": "20/09/2026"
+  },
+  {
+   "code": "DEC-02",
+   "nom": "Décanteur centrifuge",
+   "marque": "Alfa Laval",
+   "etat": "En service",
+   "loc": "Ligne B",
+   "maint": "08/09/2026"
+  },
+  {
+   "code": "SEP-01",
+   "nom": "Séparateur centrifuge",
+   "marque": "Alfa Laval",
+   "etat": "En service",
+   "loc": "Ligne B",
+   "maint": "30/09/2026"
+  },
+  {
+   "code": "FIL-01",
+   "nom": "Filtre à plaques",
+   "marque": "Rover",
+   "etat": "En panne",
+   "loc": "Atelier",
+   "maint": "06/09/2026"
+  },
+  {
+   "code": "CND-01",
+   "nom": "Ligne de conditionnement",
+   "marque": "Bertolaso",
+   "etat": "En service",
+   "loc": "Atelier",
+   "maint": "15/10/2026"
+  }
+ ],
+ "maintenances": [
+  {
+   "num": "INT-2026-0074",
+   "equip": "FIL-01 — Filtre à plaques",
+   "type": "Corrective",
+   "date": "06/09/2026",
+   "tech": "Fethi Belhadj",
+   "cout": 640,
+   "statut": "En cours"
+  },
+  {
+   "num": "INT-2026-0073",
+   "equip": "DEC-02 — Décanteur",
+   "type": "Préventive",
+   "date": "08/09/2026",
+   "tech": "Fethi Belhadj",
+   "cout": 0,
+   "statut": "Planifiée"
+  },
+  {
+   "num": "INT-2026-0071",
+   "equip": "BRO-01 — Broyeur",
+   "type": "Préventive",
+   "date": "29/08/2026",
+   "tech": "Méca Industrie",
+   "cout": 2450,
+   "statut": "Clôturée"
+  }
+ ],
+ "transports": [
+  {
+   "matricule": "148 TU 3620",
+   "type": "Camion 3,5 T",
+   "capacite": "3 500 kg",
+   "km": 184200,
+   "etat": "En mission",
+   "chauffeur": "Slim Ouertani"
+  },
+  {
+   "matricule": "92 TU 4471",
+   "type": "Camionnette",
+   "capacite": "1 200 kg",
+   "km": 96400,
+   "etat": "Disponible",
+   "chauffeur": "Hatem Zouari"
+  },
+  {
+   "matricule": "210 TU 1108",
+   "type": "Tracteur + benne",
+   "capacite": "6 000 kg",
+   "km": 42800,
+   "etat": "En maintenance",
+   "chauffeur": "—"
+  }
+ ],
+ "employes": [
+  {
+   "mat": "EMP-004",
+   "nom": "Karim Jaziri",
+   "poste": "Responsable production",
+   "dept": "Production",
+   "embauche": "12/03/2019",
+   "statut": "Permanent",
+   "prenom": "Karim",
+   "tel1": "+216 98 441 207",
+   "tel2": "+216 73 240 118",
+   "email": "k.jaziri@benchaaben.tn",
+   "typeRem": "Jour",
+   "prix": 65
+  },
+  {
+   "mat": "EMP-011",
+   "nom": "Sonia Kacem",
+   "poste": "Responsable qualité",
+   "dept": "Qualité",
+   "embauche": "04/09/2020",
+   "statut": "Permanent",
+   "prenom": "Sonia",
+   "tel1": "+216 22 118 904",
+   "tel2": "",
+   "email": "s.kacem@benchaaben.tn",
+   "typeRem": "Jour",
+   "prix": 58
+  },
+  {
+   "mat": "EMP-018",
+   "nom": "Amine Gharbi",
+   "poste": "Magasinier",
+   "dept": "Logistique",
+   "embauche": "01/10/2022",
+   "statut": "Permanent",
+   "prenom": "Amine",
+   "tel1": "+216 55 402 118",
+   "tel2": "",
+   "email": "a.gharbi@benchaaben.tn",
+   "typeRem": "Jour",
+   "prix": 42
+  },
+  {
+   "mat": "EMP-032",
+   "nom": "Nabil Ferchichi",
+   "poste": "Opérateur",
+   "dept": "Production",
+   "embauche": "15/10/2025",
+   "statut": "Saisonnier",
+   "prenom": "Nabil",
+   "tel1": "+216 96 730 441",
+   "tel2": "+216 73 240 120",
+   "email": "n.ferchichi@benchaaben.tn",
+   "typeRem": "Heure",
+   "prix": 5.5
+  },
+  {
+   "mat": "EMP-041",
+   "nom": "Fethi Belhadj",
+   "poste": "Technicien maintenance",
+   "dept": "Technique",
+   "embauche": "20/01/2021",
+   "statut": "Permanent",
+   "prenom": "Fethi",
+   "tel1": "+216 98 220 774",
+   "tel2": "",
+   "email": "f.belhadj@benchaaben.tn",
+   "typeRem": "Heure",
+   "prix": 7.2
+  },
+  {
+   "mat": "EMP-047",
+   "nom": "Ali Haddad",
+   "prenom": "Ali",
+   "poste": "Ouvrier de trituration",
+   "dept": "Production",
+   "embauche": "05/10/2025",
+   "statut": "Saisonnier",
+   "tel1": "+216 20 114 887",
+   "tel2": "",
+   "email": "",
+   "typeRem": "Heure",
+   "prix": 5
+  },
+  {
+   "mat": "EMP-048",
+   "nom": "Salah Mabrouk",
+   "prenom": "Salah",
+   "poste": "Manutentionnaire",
+   "dept": "Logistique",
+   "embauche": "05/10/2025",
+   "statut": "Saisonnier",
+   "tel1": "+216 26 908 331",
+   "tel2": "",
+   "email": "",
+   "typeRem": "Jour",
+   "prix": 38
+  }
+ ],
+ "utilisateurs": [
+  {
+   "login": "m.benchaaben",
+   "nom": "Mohamed Ben Chaaben",
+   "email": "m.benchaaben@benchaaben.tn",
+   "role": "Administrateur",
+   "site": "Sousse",
+   "statut": "Actif",
+   "derniere": "05/09/2026 08:02",
+   "droits": [
+    "PARAMETRAGE",
+    "ACHATS",
+    "PRODUCTION",
+    "STOCK",
+    "STATISTIQUES",
+    "FINANCE"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Mohamed Ben Chaaben",
+   "mdp": "••••••••"
+  },
+  {
+   "login": "k.jaziri",
+   "nom": "Karim Jaziri",
+   "email": "k.jaziri@benchaaben.tn",
+   "role": "Responsable production",
+   "site": "Sousse",
+   "statut": "Actif",
+   "derniere": "05/09/2026 07:14",
+   "droits": [
+    "ACHATS",
+    "PRODUCTION",
+    "STOCK",
+    "STATISTIQUES"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Karim Jaziri",
+   "mdp": "••••••••"
+  },
+  {
+   "login": "s.kacem",
+   "nom": "Sonia Kacem",
+   "email": "s.kacem@benchaaben.tn",
+   "role": "Responsable qualité",
+   "site": "Sousse",
+   "statut": "Actif",
+   "derniere": "04/09/2026 16:40",
+   "droits": [
+    "ACHATS",
+    "PRODUCTION",
+    "STATISTIQUES"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Sonia Kacem",
+   "mdp": "••••••••"
+  },
+  {
+   "login": "a.gharbi",
+   "nom": "Amine Gharbi",
+   "email": "a.gharbi@benchaaben.tn",
+   "role": "Magasinier",
+   "site": "Sousse",
+   "statut": "Actif",
+   "derniere": "05/09/2026 06:55",
+   "droits": [
+    "STOCK",
+    "ACHATS"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Amine Gharbi",
+   "mdp": "••••••••"
+  },
+  {
+   "login": "h.mansour",
+   "nom": "Hana Mansour",
+   "email": "h.mansour@benchaaben.tn",
+   "role": "Comptable",
+   "site": "Sousse",
+   "statut": "Actif",
+   "derniere": "04/09/2026 17:22",
+   "droits": [
+    "FINANCE",
+    "STATISTIQUES",
+    "PARAMETRAGE"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Hana Mansour",
+   "mdp": "••••••••"
+  },
+  {
+   "login": "n.ferchichi",
+   "nom": "Nabil Ferchichi",
+   "email": "n.ferchichi@benchaaben.tn",
+   "role": "Opérateur",
+   "site": "Kalâa Kebira",
+   "statut": "Inactif",
+   "derniere": "12/08/2026 09:10",
+   "droits": [
+    "PRODUCTION"
+   ],
+   "application": "Huilerie Ben Chaaben",
+   "personnel": "Nabil Ferchichi",
+   "mdp": "••••••••"
+  }
+ ],
+ "audit": [
+  {
+   "user": "Hana Mansour",
+   "action": "Modification d'une facture",
+   "cible": "FAC-2026-00430",
+   "date": "05/09/2026 09:41",
+   "av": "4 500,000 TND",
+   "ap": "4 750,000 TND"
+  },
+  {
+   "user": "Sonia Kacem",
+   "action": "Blocage qualité d'un lot",
+   "cible": "LOT-2026-00131",
+   "date": "31/08/2026 14:02",
+   "av": "En attente",
+   "ap": "Non conforme"
+  },
+  {
+   "user": "Mohamed Ben Chaaben",
+   "action": "Modification de rôle",
+   "cible": "n.ferchichi",
+   "date": "12/08/2026 09:20",
+   "av": "Opérateur actif",
+   "ap": "Opérateur inactif"
+  },
+  {
+   "user": "Karim Jaziri",
+   "action": "Clôture d'un ordre de fabrication",
+   "cible": "OF-2026-0089",
+   "date": "03/09/2026 11:04",
+   "av": "En production",
+   "ap": "Terminé"
+  },
+  {
+   "user": "Amine Gharbi",
+   "action": "Validation d'un inventaire",
+   "cible": "INV-2026-0018",
+   "date": "01/09/2026 18:12",
+   "av": "Écart -12 bt",
+   "ap": "Régularisé"
+  }
+ ],
+ "notifications": [
+  {
+   "t": "Stock critique",
+   "d": "Huile extra vierge 0,75 L — 42 unités restantes",
+   "h": "il y a 12 min",
+   "lu": false,
+   "niv": "danger"
+  },
+  {
+   "t": "Analyse en attente",
+   "d": "LOT-2026-00145 réceptionné sans analyse",
+   "h": "il y a 48 min",
+   "lu": false,
+   "niv": "warn"
+  },
+  {
+   "t": "Facture échue",
+   "d": "FAC-2026-00431 — Épicerie El Baraka",
+   "h": "il y a 3 h",
+   "lu": false,
+   "niv": "gold"
+  },
+  {
+   "t": "Maintenance prévue",
+   "d": "Décanteur DEC-02 — intervention le 08/09",
+   "h": "Hier",
+   "lu": true,
+   "niv": "info"
+  },
+  {
+   "t": "Commande livrée",
+   "d": "CMD-2026-00283 — GMS Carrefour Sousse",
+   "h": "Hier",
+   "lu": true,
+   "niv": "ok"
+  }
+ ],
+ "campagneCompare": [
+  {
+   "k": "Olives réceptionnées",
+   "a": "126,5 T",
+   "b": "111,2 T",
+   "d": "+13,8 %"
+  },
+  {
+   "k": "Huile produite",
+   "a": "18 420 L",
+   "b": "15 320 L",
+   "d": "+20,2 %"
+  },
+  {
+   "k": "Rendement moyen",
+   "a": "14,58 %",
+   "b": "13,78 %",
+   "d": "+0,80 pt"
+  },
+  {
+   "k": "Chiffre d'affaires",
+   "a": "248 650 TND",
+   "b": "212 400 TND",
+   "d": "+17,1 %"
+  },
+  {
+   "k": "Charges affectées",
+   "a": "162 300 TND",
+   "b": "148 900 TND",
+   "d": "+9,0 %"
+  },
+  {
+   "k": "Résultat estimé",
+   "a": "86 350 TND",
+   "b": "63 500 TND",
+   "d": "+36,0 %"
+  }
+ ],
+ "societes": [
+  {
+   "code": "SOC-01",
+   "nom": "Huilerie Ben Chaaben",
+   "mf": "1487962/A/M/000",
+   "ville": "Sousse",
+   "tel": "+216 73 240 118",
+   "statut": "Active"
+  },
+  {
+   "code": "SOC-02",
+   "nom": "Ben Chaaben Trading (export)",
+   "mf": "1487962/B/M/001",
+   "ville": "Sousse",
+   "tel": "+216 73 240 120",
+   "statut": "Active"
+  }
+ ],
+ "exercices": [
+  {
+   "code": "EX-2026",
+   "libelle": "Exercice 2026",
+   "debut": "01/01/2026",
+   "fin": "31/12/2026",
+   "statut": "Ouvert"
+  },
+  {
+   "code": "EX-2025",
+   "libelle": "Exercice 2025",
+   "debut": "01/01/2025",
+   "fin": "31/12/2025",
+   "statut": "Clôturé"
+  }
+ ],
+ "saisons": [
+  {
+   "code": "S-2025/26",
+   "libelle": "Saison 2025/2026",
+   "debut": "01/10/2025",
+   "fin": "30/09/2026",
+   "olives": 126500,
+   "huile": 18420,
+   "rdt": 14.56,
+   "statut": "Ouverte"
+  },
+  {
+   "code": "S-2024/25",
+   "libelle": "Saison 2024/2025",
+   "debut": "01/10/2024",
+   "fin": "30/09/2025",
+   "olives": 111200,
+   "huile": 15320,
+   "rdt": 13.78,
+   "statut": "Clôturée"
+  },
+  {
+   "code": "S-2023/24",
+   "libelle": "Saison 2023/2024",
+   "debut": "01/10/2023",
+   "fin": "30/09/2024",
+   "olives": 98400,
+   "huile": 13835,
+   "rdt": 14.06,
+   "statut": "Clôturée"
+  }
+ ],
+ "unites": [
+  {
+   "code": "KG",
+   "libelle": "Kilogramme",
+   "type": "Poids",
+   "base": "KG",
+   "facteur": 1
+  },
+  {
+   "code": "T",
+   "libelle": "Tonne",
+   "type": "Poids",
+   "base": "KG",
+   "facteur": 1000
+  },
+  {
+   "code": "L",
+   "libelle": "Litre",
+   "type": "Volume",
+   "base": "L",
+   "facteur": 1
+  },
+  {
+   "code": "BT",
+   "libelle": "Bouteille",
+   "type": "Conditionnement",
+   "base": "U",
+   "facteur": 1
+  },
+  {
+   "code": "BD",
+   "libelle": "Bidon",
+   "type": "Conditionnement",
+   "base": "U",
+   "facteur": 1
+  },
+  {
+   "code": "CT",
+   "libelle": "Carton",
+   "type": "Conditionnement",
+   "base": "U",
+   "facteur": 12
+  },
+  {
+   "code": "PAL",
+   "libelle": "Palette",
+   "type": "Logistique",
+   "base": "U",
+   "facteur": 60
+  }
+ ],
+ "modesReglement": [
+  {
+   "code": "ESP",
+   "libelle": "Espèces",
+   "journal": "Caisse espèces",
+   "delai": 0,
+   "actif": true
+  },
+  {
+   "code": "CHQ",
+   "libelle": "Chèque",
+   "journal": "Portefeuille chèques",
+   "delai": 30,
+   "actif": true
+  },
+  {
+   "code": "VIR",
+   "libelle": "Virement",
+   "journal": "Banque",
+   "delai": 0,
+   "actif": true
+  },
+  {
+   "code": "TRT",
+   "libelle": "Traite",
+   "journal": "Portefeuille effets",
+   "delai": 90,
+   "actif": true
+  },
+  {
+   "code": "AUT",
+   "libelle": "Autre",
+   "journal": "Divers",
+   "delai": 0,
+   "actif": true
+  }
+ ],
+ "presences": [
+  {
+   "date": "05/09/2026",
+   "mat": "EMP-004",
+   "nom": "Karim Jaziri",
+   "poste": "Responsable production",
+   "arrivee": "06:45",
+   "depart": "18:10",
+   "heures": 11.4,
+   "hs": 3.4,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 65,
+   "jours": 1,
+   "total": 65,
+   "remarque": ""
+  },
+  {
+   "date": "05/09/2026",
+   "mat": "EMP-032",
+   "nom": "Nabil Ferchichi",
+   "poste": "Opérateur",
+   "arrivee": "06:50",
+   "depart": "18:00",
+   "heures": 11.2,
+   "hs": 3.2,
+   "statut": "Présent",
+   "typeRem": "Heure",
+   "prix": 5.5,
+   "jours": 1,
+   "total": 61.6,
+   "remarque": ""
+  },
+  {
+   "date": "05/09/2026",
+   "mat": "EMP-018",
+   "nom": "Amine Gharbi",
+   "poste": "Magasinier",
+   "arrivee": "07:05",
+   "depart": "17:30",
+   "heures": 10.4,
+   "hs": 2.4,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 42,
+   "jours": 1,
+   "total": 42,
+   "remarque": ""
+  },
+  {
+   "date": "05/09/2026",
+   "mat": "EMP-011",
+   "nom": "Sonia Kacem",
+   "poste": "Responsable qualité",
+   "arrivee": "08:00",
+   "depart": "16:00",
+   "heures": 8,
+   "hs": 0,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 58,
+   "jours": 1,
+   "total": 58,
+   "remarque": ""
+  },
+  {
+   "date": "05/09/2026",
+   "mat": "EMP-041",
+   "nom": "Fethi Belhadj",
+   "poste": "Technicien maintenance",
+   "arrivee": "—",
+   "depart": "—",
+   "heures": 0,
+   "hs": 0,
+   "statut": "Absent",
+   "typeRem": "Heure",
+   "prix": 7.2,
+   "jours": 0,
+   "total": 0,
+   "remarque": ""
+  },
+  {
+   "date": "04/09/2026",
+   "mat": "EMP-004",
+   "nom": "Karim Jaziri",
+   "poste": "Responsable production",
+   "arrivee": "06:40",
+   "depart": "19:20",
+   "heures": 12.7,
+   "hs": 4.7,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 65,
+   "jours": 1,
+   "total": 65,
+   "remarque": ""
+  },
+  {
+   "date": "04/09/2026",
+   "mat": "EMP-032",
+   "nom": "Nabil Ferchichi",
+   "poste": "Opérateur",
+   "arrivee": "06:55",
+   "depart": "19:20",
+   "heures": 12.4,
+   "hs": 4.4,
+   "statut": "Présent",
+   "typeRem": "Heure",
+   "prix": 5.5,
+   "jours": 1,
+   "total": 68.2,
+   "remarque": ""
+  },
+  {
+   "date": "04/09/2026",
+   "mat": "EMP-018",
+   "nom": "Amine Gharbi",
+   "poste": "Magasinier",
+   "arrivee": "07:00",
+   "depart": "17:00",
+   "heures": 10,
+   "hs": 2,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 42,
+   "jours": 1,
+   "total": 42,
+   "remarque": ""
+  },
+  {
+   "date": "04/09/2026",
+   "mat": "EMP-011",
+   "nom": "Sonia Kacem",
+   "poste": "Responsable qualité",
+   "arrivee": "08:10",
+   "depart": "16:10",
+   "heures": 8,
+   "hs": 0,
+   "statut": "Présent",
+   "typeRem": "Jour",
+   "prix": 58,
+   "jours": 1,
+   "total": 58,
+   "remarque": ""
+  }
+ ],
+ "avances": [
+  {
+   "num": "AVP-2026-0042",
+   "date": "03/09/2026",
+   "mat": "EMP-032",
+   "nom": "Nabil Ferchichi",
+   "montant": 300,
+   "mode": "Espèces",
+   "motif": "Avance sur salaire de septembre",
+   "statut": "Validé"
+  },
+  {
+   "num": "AVP-2026-0041",
+   "date": "01/09/2026",
+   "mat": "EMP-018",
+   "nom": "Amine Gharbi",
+   "montant": 200,
+   "mode": "Espèces",
+   "motif": "Acompte frais scolaires",
+   "statut": "Validé"
+  },
+  {
+   "num": "AVP-2026-0039",
+   "date": "28/08/2026",
+   "mat": "EMP-004",
+   "nom": "Karim Jaziri",
+   "montant": 500,
+   "mode": "Virement",
+   "motif": "Avance exceptionnelle",
+   "statut": "Retenu"
+  }
+ ],
+ "reglementsPersonnel": [
+  {
+   "num": "RGP-2026-0088",
+   "date": "31/08/2026",
+   "mat": "EMP-004",
+   "nom": "Karim Jaziri",
+   "brut": 1850,
+   "avances": 500,
+   "net": 1350,
+   "mode": "Virement",
+   "periode": "Août 2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0089",
+   "date": "31/08/2026",
+   "mat": "EMP-011",
+   "nom": "Sonia Kacem",
+   "brut": 1420,
+   "avances": 0,
+   "net": 1420,
+   "mode": "Virement",
+   "periode": "Août 2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0090",
+   "date": "31/08/2026",
+   "mat": "EMP-018",
+   "nom": "Amine Gharbi",
+   "brut": 980,
+   "avances": 200,
+   "net": 780,
+   "mode": "Espèces",
+   "periode": "Août 2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0091",
+   "date": "05/09/2026",
+   "mat": "EMP-032",
+   "nom": "Nabil Ferchichi",
+   "brut": 1240,
+   "avances": 300,
+   "net": 940,
+   "mode": "Espèces",
+   "periode": "Août 2026",
+   "statut": "En attente"
+  }
+ ],
+ "transporteurs": [
+  {
+   "code": "TRP-01",
+   "nom": "Trans Olive",
+   "contact": "Slim Ouertani",
+   "tel": "+216 98 114 220",
+   "vehicule": "Camion 10 T",
+   "tarif": 0.18,
+   "solde": 1240,
+   "statut": "Actif",
+   "cin": "04471882",
+   "adresse": "Route de Kairouan, Sousse",
+   "matricules": [
+    "148 TU 3620",
+    "210 TU 1108"
+   ]
+  },
+  {
+   "code": "TRP-02",
+   "nom": "Transport Sahline",
+   "contact": "Nizar Ayadi",
+   "tel": "+216 22 730 118",
+   "vehicule": "Benne 6 T",
+   "tarif": 0.15,
+   "solde": 0,
+   "statut": "Actif",
+   "cin": "09112446",
+   "adresse": "Sahline, Monastir",
+   "matricules": [
+    "331 TU 2204"
+   ]
+  },
+  {
+   "code": "TRP-03",
+   "nom": "Véhicules internes",
+   "contact": "Hatem Zouari",
+   "tel": "+216 55 402 118",
+   "vehicule": "Flotte propre",
+   "tarif": 0,
+   "solde": 0,
+   "statut": "Actif",
+   "cin": "07714203",
+   "adresse": "Huilerie Ben Chaaben",
+   "matricules": [
+    "92 TU 4471",
+    "512 TU 7719"
+   ]
+  }
+ ],
+ "piles": [
+  {
+   "num": "PILE-01",
+   "capacite": 15000,
+   "type": "Extra vierge",
+   "qte": 12460,
+   "lot": "LOT-H-2026-0089",
+   "origine": "Coopérative Sahline",
+   "entree": "03/09/2026",
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "PILE-02",
+   "capacite": 15000,
+   "type": "Vierge",
+   "qte": 8390,
+   "lot": "LOT-H-2026-0090",
+   "origine": "Domaine El Kantaoui",
+   "entree": "03/09/2026",
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "PILE-03",
+   "capacite": 10000,
+   "type": "Extra vierge",
+   "qte": 9600,
+   "lot": "LOT-H-2026-0086",
+   "origine": "Verger Ben Salem",
+   "entree": "01/09/2026",
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "PILE-04",
+   "capacite": 10000,
+   "type": "Extra vierge",
+   "qte": 2400,
+   "lot": "LOT-H-2026-0085",
+   "origine": "Mongi Ayari",
+   "entree": "31/08/2026",
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "PILE-05",
+   "capacite": 8000,
+   "type": "Lampante",
+   "qte": 0,
+   "lot": "—",
+   "origine": "—",
+   "entree": "—",
+   "saison": "Saison 2025/2026",
+   "etat": "Vide"
+  },
+  {
+   "num": "PILE-06",
+   "capacite": 8000,
+   "type": "Extra vierge",
+   "qte": 0,
+   "lot": "—",
+   "origine": "—",
+   "entree": "—",
+   "saison": "Saison 2025/2026",
+   "etat": "En nettoyage"
+  }
+ ],
+ "terrasses": [
+  {
+   "num": "TER-A",
+   "surface": 420,
+   "capacite": 180000,
+   "produit": "Olives Chemlali",
+   "qte": 4400,
+   "fournisseur": "Coopérative Sahline",
+   "entree": "04/09/2026",
+   "etat": "Occupée"
+  },
+  {
+   "num": "TER-B",
+   "surface": 420,
+   "capacite": 180000,
+   "produit": "Olives Chemlali",
+   "qte": 2560,
+   "fournisseur": "Slim Ben Salem",
+   "entree": "04/09/2026",
+   "etat": "Occupée"
+  },
+  {
+   "num": "TER-C",
+   "surface": 300,
+   "capacite": 120000,
+   "produit": "Olives Chetoui",
+   "qte": 1280,
+   "fournisseur": "Domaine El Kantaoui",
+   "entree": "03/09/2026",
+   "etat": "Occupée"
+  },
+  {
+   "num": "TER-D",
+   "surface": 300,
+   "capacite": 120000,
+   "produit": "—",
+   "qte": 0,
+   "fournisseur": "—",
+   "entree": "—",
+   "etat": "Libre"
+  }
+ ],
+ "bonsEntreeHuile": [
+  {
+   "num": "BEH-2026-0031",
+   "date": "03/09/2026",
+   "fournisseur": "Coopérative Sahline",
+   "type": "Extra vierge",
+   "qte": 708.6,
+   "pile": "PILE-01",
+   "lot": "LOT-H-2026-0089",
+   "acidite": 0.24,
+   "origine": "Production interne OF-2026-0089",
+   "statut": "Validé"
+  },
+  {
+   "num": "BEH-2026-0030",
+   "date": "03/09/2026",
+   "fournisseur": "Domaine El Kantaoui",
+   "type": "Vierge",
+   "qte": 342,
+   "pile": "PILE-02",
+   "lot": "LOT-H-2026-0090",
+   "acidite": 0.62,
+   "origine": "Production interne OF-2026-0090",
+   "statut": "Validé"
+  },
+  {
+   "num": "BEH-2026-0029",
+   "date": "01/09/2026",
+   "fournisseur": "Huilerie El Fejja",
+   "type": "Extra vierge",
+   "qte": 2400,
+   "pile": "PILE-03",
+   "lot": "LOT-H-2026-0086",
+   "acidite": 0.31,
+   "origine": "Achat huile en vrac",
+   "statut": "Validé"
+  },
+  {
+   "num": "BEH-2026-0028",
+   "date": "30/08/2026",
+   "fournisseur": "Huilerie El Fejja",
+   "type": "Extra vierge",
+   "qte": 1800,
+   "pile": "PILE-03",
+   "lot": "LOT-H-2026-0084",
+   "acidite": 0.29,
+   "origine": "Achat huile en vrac",
+   "statut": "Brouillon"
+  }
+ ],
+ "organoleptique": [
+  {
+   "num": "ORG-2026-0074",
+   "lot": "LOT-H-2026-0089",
+   "date": "03/09/2026",
+   "fournisseur": "Coopérative Sahline",
+   "type": "Extra vierge",
+   "acidite": 0.24,
+   "fruite": "Fruité vert moyen",
+   "amer": "Moyen",
+   "piquant": "Moyen",
+   "defaut": "Aucun",
+   "res": "Validé",
+   "obs": "Profil typique Chemlali, très bon équilibre"
+  },
+  {
+   "num": "ORG-2026-0073",
+   "lot": "LOT-H-2026-0090",
+   "date": "03/09/2026",
+   "fournisseur": "Domaine El Kantaoui",
+   "type": "Vierge",
+   "acidite": 0.62,
+   "fruite": "Fruité mûr léger",
+   "amer": "Léger",
+   "piquant": "Léger",
+   "defaut": "Léger chômé",
+   "res": "Validé",
+   "obs": "Classé vierge, non extra vierge"
+  },
+  {
+   "num": "ORG-2026-0072",
+   "lot": "LOT-2026-00131",
+   "date": "31/08/2026",
+   "fournisseur": "Mongi Ayari",
+   "type": "Lampante",
+   "acidite": 1.12,
+   "fruite": "Absent",
+   "amer": "Absent",
+   "piquant": "Absent",
+   "defaut": "Moisi-humide",
+   "res": "Non validé",
+   "obs": "Olives stockées trop longtemps avant trituration"
+  },
+  {
+   "num": "ORG-2026-0071",
+   "lot": "LOT-H-2026-0086",
+   "date": "01/09/2026",
+   "fournisseur": "Huilerie El Fejja",
+   "type": "Extra vierge",
+   "acidite": 0.31,
+   "fruite": "Fruité vert intense",
+   "amer": "Marqué",
+   "piquant": "Marqué",
+   "defaut": "Aucun",
+   "res": "Validé",
+   "obs": "Lot destiné à l'export"
+  }
+ ],
+ "facturesFournisseurs": [
+  {
+   "num": "FF-2026-00188",
+   "date": "01/09/2026",
+   "fournisseur": "Emballages Sud SA",
+   "ht": 7075.63,
+   "tva": 1344.37,
+   "ttc": 8420,
+   "echeance": "01/10/2026",
+   "paye": 8420,
+   "statut": "Payée"
+  },
+  {
+   "num": "FF-2026-00191",
+   "date": "03/09/2026",
+   "fournisseur": "Huilerie El Fejja",
+   "ht": 40336.134,
+   "tva": 7663.866,
+   "ttc": 48000,
+   "echeance": "03/10/2026",
+   "paye": 20000,
+   "statut": "Partiellement payée"
+  },
+  {
+   "num": "FF-2026-00193",
+   "date": "04/09/2026",
+   "fournisseur": "Trans Olive",
+   "ht": 1042.017,
+   "tva": 197.983,
+   "ttc": 1240,
+   "echeance": "19/09/2026",
+   "paye": 0,
+   "statut": "En attente"
+  },
+  {
+   "num": "FF-2026-00186",
+   "date": "28/08/2026",
+   "fournisseur": "Méca Industrie",
+   "ht": 2058.824,
+   "tva": 391.176,
+   "ttc": 2450,
+   "echeance": "28/08/2026",
+   "paye": 2450,
+   "statut": "Payée"
+  },
+  {
+   "num": "FF-2026-00184",
+   "date": "25/08/2026",
+   "fournisseur": "STEG",
+   "ht": 3226.891,
+   "tva": 613.109,
+   "ttc": 3840,
+   "echeance": "10/09/2026",
+   "paye": 0,
+   "statut": "En attente"
+  }
+ ],
+ "accomptesFournisseurs": [
+  {
+   "num": "ACF-2026-0057",
+   "date": "02/09/2026",
+   "fournisseur": "Huilerie El Fejja",
+   "montant": 20000,
+   "mode": "Virement",
+   "ref": "VIR-2026-0181",
+   "affecte": "FF-2026-00191",
+   "statut": "Affecté",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "ACF-2026-0056",
+   "date": "29/08/2026",
+   "fournisseur": "Coopérative Sahline",
+   "montant": 24600,
+   "mode": "Virement",
+   "ref": "VIR-2026-0176",
+   "affecte": "Apports août",
+   "statut": "Affecté",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "ACF-2026-0058",
+   "date": "05/09/2026",
+   "fournisseur": "Emballages Sud SA",
+   "montant": 3000,
+   "mode": "Chèque",
+   "ref": "CHQ-902114",
+   "affecte": "—",
+   "statut": "Non affecté",
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "ventes": [
+  {
+   "num": "VTE-2026-00312",
+   "date": "05/09/2026",
+   "client": "GMS Carrefour Sousse",
+   "type": "Crédit",
+   "produit": "Huile extra vierge conditionnée",
+   "qte": 356,
+   "unite": "bt",
+   "ttc": 9240,
+   "paye": 0,
+   "bl": "BL-2026-00618",
+   "facture": "FAC-2026-00434",
+   "statut": "Validé"
+  },
+  {
+   "num": "VTE-2026-00311",
+   "date": "04/09/2026",
+   "client": "Sté Medoil Export",
+   "type": "Crédit",
+   "produit": "Huile en vrac extra vierge",
+   "qte": 840,
+   "unite": "L",
+   "ttc": 18600,
+   "paye": 6000,
+   "bl": "BL-2026-00617",
+   "facture": "FAC-2026-00428",
+   "statut": "Validé"
+  },
+  {
+   "num": "VTE-2026-00310",
+   "date": "04/09/2026",
+   "client": "Épicerie El Baraka",
+   "type": "Crédit",
+   "produit": "Huile extra vierge 1 L",
+   "qte": 200,
+   "unite": "bt",
+   "ttc": 4820,
+   "paye": 0,
+   "bl": "BL-2026-00612",
+   "facture": "FAC-2026-00431",
+   "statut": "Validé"
+  },
+  {
+   "num": "VTE-2026-00309",
+   "date": "02/09/2026",
+   "client": "Hôtel Marhaba Palace",
+   "type": "Crédit",
+   "produit": "Huile d'olive 5 L",
+   "qte": 60,
+   "unite": "bd",
+   "ttc": 6200,
+   "paye": 3000,
+   "bl": "BL-2026-00609",
+   "facture": "FAC-2026-00430",
+   "statut": "Validé"
+  },
+  {
+   "num": "VTE-2026-00308",
+   "date": "05/09/2026",
+   "client": "Client comptoir",
+   "type": "Comptant",
+   "produit": "Vente comptoir",
+   "qte": 6,
+   "unite": "bt",
+   "ttc": 142.8,
+   "paye": 142.8,
+   "bl": "—",
+   "facture": "TKT-2026-001257",
+   "statut": "Clôturé"
+  },
+  {
+   "num": "VTE-2026-00313",
+   "date": "05/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "type": "Crédit",
+   "produit": "Grignons d'olive",
+   "qte": 12400,
+   "unite": "kg",
+   "ttc": 992,
+   "paye": 992,
+   "bl": "BL-G-00121",
+   "facture": "—",
+   "statut": "Validé",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "VTE-2026-00314",
+   "date": "04/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "type": "Crédit",
+   "produit": "Noyaux concassés",
+   "qte": 3200,
+   "unite": "kg",
+   "ttc": 704,
+   "paye": 704,
+   "bl": "BL-N-00042",
+   "facture": "—",
+   "statut": "Validé",
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "operations": [
+  {
+   "num": "OP-2026-01204",
+   "date": "05/09/2026",
+   "type": "Encaissement client",
+   "tiers": "Restaurant Le Pressoir",
+   "montant": 2340,
+   "mode": "Espèces",
+   "journal": "Caisse espèces",
+   "motif": "Règlement FAC-2026-00426",
+   "user": "Mohamed Ben Chaaben",
+   "statut": "Validé",
+   "obs": "",
+   "valide": false
+  },
+  {
+   "num": "OP-2026-01203",
+   "date": "05/09/2026",
+   "type": "Vente comptoir",
+   "tiers": "Client comptoir",
+   "montant": 142.8,
+   "mode": "Espèces",
+   "journal": "Caisse espèces",
+   "motif": "Ticket TKT-2026-001257",
+   "user": "Mohamed Ben Chaaben",
+   "statut": "Validé",
+   "obs": "",
+   "valide": false
+  },
+  {
+   "num": "OP-2026-01202",
+   "date": "05/09/2026",
+   "type": "Dépense",
+   "tiers": "Station Agil",
+   "montant": -920.5,
+   "mode": "Espèces",
+   "journal": "Caisse espèces",
+   "motif": "Carburant camion 148 TU 3620",
+   "user": "Amine Gharbi",
+   "statut": "Validé",
+   "obs": "",
+   "valide": false
+  },
+  {
+   "num": "OP-2026-01201",
+   "date": "05/09/2026",
+   "type": "Avance personnel",
+   "tiers": "Nabil Ferchichi",
+   "montant": -300,
+   "mode": "Espèces",
+   "journal": "Caisse espèces",
+   "motif": "Avance AVP-2026-0042",
+   "user": "Mohamed Ben Chaaben",
+   "statut": "Validé",
+   "obs": "",
+   "valide": false
+  },
+  {
+   "num": "OP-2026-01200",
+   "date": "05/09/2026",
+   "type": "Alimentation de caisse",
+   "tiers": "Banque BIAT",
+   "montant": 5000,
+   "mode": "Virement",
+   "journal": "Caisse espèces",
+   "motif": "Retrait bancaire pour fonds de caisse",
+   "user": "Mohamed Ben Chaaben",
+   "statut": "Validé",
+   "obs": "",
+   "valide": false
+  },
+  {
+   "num": "OP-2026-01199",
+   "date": "04/09/2026",
+   "type": "Encaissement client",
+   "tiers": "Hôtel Marhaba Palace",
+   "montant": 3000,
+   "mode": "Chèque",
+   "journal": "Portefeuille chèques",
+   "motif": "CHQ-441207 sur FAC-2026-00430",
+   "user": "Hana Mansour",
+   "statut": "Validé",
+   "obs": "Déposé le 05/09",
+   "valide": true
+  },
+  {
+   "num": "OP-2026-01198",
+   "date": "03/09/2026",
+   "type": "Règlement fournisseur",
+   "tiers": "Emballages Sud SA",
+   "montant": -8420,
+   "mode": "Virement",
+   "journal": "Banque",
+   "motif": "FF-2026-00188",
+   "user": "Hana Mansour",
+   "statut": "Validé",
+   "obs": "",
+   "valide": true
+  },
+  {
+   "num": "OP-2026-01197",
+   "date": "02/09/2026",
+   "type": "Accompte fournisseur",
+   "tiers": "Huilerie El Fejja",
+   "montant": -20000,
+   "mode": "Virement",
+   "journal": "Banque",
+   "motif": "ACF-2026-0057",
+   "user": "Hana Mansour",
+   "statut": "Validé",
+   "obs": "",
+   "valide": true
+  },
+  {
+   "num": "OP-2026-01196",
+   "date": "02/09/2026",
+   "type": "Encaissement client",
+   "tiers": "Sté Sud Distribution",
+   "montant": 10720,
+   "mode": "Virement",
+   "journal": "Banque",
+   "motif": "FAC-2026-00421",
+   "user": "Hana Mansour",
+   "statut": "Validé",
+   "obs": "",
+   "valide": true
+  },
+  {
+   "num": "OP-2026-01195",
+   "date": "31/08/2026",
+   "type": "Règlement personnel",
+   "tiers": "Amine Gharbi",
+   "montant": -780,
+   "mode": "Espèces",
+   "journal": "Caisse espèces",
+   "motif": "Salaire août 2026",
+   "user": "Hana Mansour",
+   "statut": "Validé",
+   "obs": "",
+   "valide": true
+  }
+ ],
+ "validationsCaisse": [
+  {
+   "date": "04/09/2026",
+   "initial": 9240,
+   "entrees": 6820,
+   "sorties": 7560,
+   "theorique": 8500,
+   "reel": 8480,
+   "ecart": -20,
+   "user": "Mohamed Ben Chaaben",
+   "justif": "Erreur de rendu de monnaie au comptoir",
+   "statut": "Clôturée"
+  },
+  {
+   "date": "03/09/2026",
+   "initial": 7100,
+   "entrees": 8940,
+   "sorties": 6800,
+   "theorique": 9240,
+   "reel": 9240,
+   "ecart": 0,
+   "user": "Mohamed Ben Chaaben",
+   "justif": "—",
+   "statut": "Clôturée"
+  }
+ ],
+ "organoleptiques": [
+  {
+   "code": "EXV",
+   "libelle": "EXTRA VIERGE",
+   "acidMax": 0.8,
+   "ordre": 1,
+   "actif": true
+  },
+  {
+   "code": "VGP",
+   "libelle": "VIERGE +",
+   "acidMax": 1.5,
+   "ordre": 2,
+   "actif": true
+  },
+  {
+   "code": "VRG",
+   "libelle": "VIERGE",
+   "acidMax": 2,
+   "ordre": 3,
+   "actif": true
+  },
+  {
+   "code": "LMP",
+   "libelle": "LAMPANTE",
+   "acidMax": 99,
+   "ordre": 4,
+   "actif": true
+  }
+ ],
+ "depots": [
+  {
+   "code": "TER-A",
+   "designation": "Terrasse A",
+   "type": "Dépôt",
+   "capacite": 180000,
+   "qte": 4400,
+   "etat": "Occupée"
+  },
+  {
+   "code": "TER-B",
+   "designation": "Terrasse B",
+   "type": "Dépôt",
+   "capacite": 180000,
+   "qte": 2560,
+   "etat": "Occupée"
+  },
+  {
+   "code": "TER-C",
+   "designation": "Terrasse C",
+   "type": "Dépôt",
+   "capacite": 120000,
+   "qte": 1280,
+   "etat": "Occupée"
+  },
+  {
+   "code": "TER-D",
+   "designation": "Terrasse D",
+   "type": "Dépôt",
+   "capacite": 120000,
+   "qte": 0,
+   "etat": "Libre"
+  },
+  {
+   "code": "CSS-01",
+   "designation": "Aire caisses plastique",
+   "type": "Caisse",
+   "capacite": 40000,
+   "qte": 3500,
+   "etat": "Occupée"
+  },
+  {
+   "code": "DIV-01",
+   "designation": "Hangar sous-produits",
+   "type": "Autre",
+   "capacite": 60000,
+   "qte": 4715,
+   "etat": "Occupée"
+  }
+ ],
+ "pilesHuile": [
+  {
+   "num": "P01",
+   "designation": "Pile 1 — inox 15 T",
+   "qteMax": 15000,
+   "qte": 12460,
+   "prixTotal": 242970,
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "P02",
+   "designation": "Pile 2 — inox 15 T",
+   "qteMax": 15000,
+   "qte": 8390,
+   "prixTotal": 159410,
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "P03",
+   "designation": "Pile 3 — inox 10 T",
+   "qteMax": 10000,
+   "qte": 9600,
+   "prixTotal": 188160,
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "P04",
+   "designation": "Pile 4 — inox 10 T",
+   "qteMax": 10000,
+   "qte": 2400,
+   "prixTotal": 46320,
+   "saison": "Saison 2025/2026",
+   "etat": "En service"
+  },
+  {
+   "num": "P05",
+   "designation": "Pile 5 — résine 8 T",
+   "qteMax": 8000,
+   "qte": 0,
+   "prixTotal": 0,
+   "saison": "Saison 2025/2026",
+   "etat": "Vide"
+  },
+  {
+   "num": "P06",
+   "designation": "Pile 6 — résine 8 T",
+   "qteMax": 8000,
+   "qte": 0,
+   "prixTotal": 0,
+   "saison": "Saison 2025/2026",
+   "etat": "En nettoyage"
+  }
+ ],
+ "mouvementsPile": [
+  {
+   "date": "03/09/2026",
+   "type": "Entrée",
+   "doc": "BEH-2026-0031",
+   "pile": "P01",
+   "qte": 708.6,
+   "sens": 1,
+   "origine": "Production BP-2026-0089"
+  },
+  {
+   "date": "03/09/2026",
+   "type": "Entrée",
+   "doc": "BEH-2026-0030",
+   "pile": "P02",
+   "qte": 342,
+   "sens": 1,
+   "origine": "Production BP-2026-0090"
+  },
+  {
+   "date": "01/09/2026",
+   "type": "Entrée",
+   "doc": "BEH-2026-0029",
+   "pile": "P03",
+   "qte": 2400,
+   "sens": 1,
+   "origine": "Achat huile Huilerie El Fejja"
+  },
+  {
+   "date": "04/09/2026",
+   "type": "Sortie",
+   "doc": "BL-2026-00617",
+   "pile": "P03",
+   "qte": 840,
+   "sens": -1,
+   "origine": "Livraison Sté Medoil Export"
+  },
+  {
+   "date": "05/09/2026",
+   "type": "Entrée",
+   "doc": "BEH-2026-0032",
+   "pile": "P01",
+   "qte": 511,
+   "sens": 1,
+   "origine": "Production BP-2026-0093"
+  }
+ ],
+ "articles": [
+  {
+   "code": "ART-001",
+   "designation": "Huile d'olive extra vierge en vrac",
+   "prix": 21,
+   "unite": "L",
+   "type": "Huile"
+  },
+  {
+   "code": "ART-002",
+   "designation": "Huile d'olive vierge en vrac",
+   "prix": 19,
+   "unite": "L",
+   "type": "Huile"
+  },
+  {
+   "code": "ART-003",
+   "designation": "Grignons d'olive",
+   "prix": 0.08,
+   "unite": "Kg",
+   "type": "Sous-produit"
+  },
+  {
+   "code": "ART-004",
+   "designation": "Noyaux concassés",
+   "prix": 0.22,
+   "unite": "Kg",
+   "type": "Sous-produit"
+  },
+  {
+   "code": "ART-005",
+   "designation": "Margines (évacuation)",
+   "prix": 45,
+   "unite": "Unité",
+   "type": "Service"
+  },
+  {
+   "code": "ART-006",
+   "designation": "Prestation de trituration",
+   "prix": 0.18,
+   "unite": "Kg",
+   "type": "Service"
+  }
+ ],
+ "bonsReception": [
+  {
+   "num": "000006",
+   "date": "05/09/2026",
+   "heure": "07:20",
+   "nature": "Achat olive sur base huile",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "cin": "01470000",
+   "matricule": "148 TU 3620",
+   "remarque": "Récolte du 04/09, olives saines",
+   "lignes": [
+    {
+     "depot": "TER-A",
+     "brut": 3980,
+     "vide": 480,
+     "caisses": 24,
+     "net": 3500,
+     "prixHuile": 19.5
+    }
+   ],
+   "reglements": [
+    {
+     "mode": "Espèces",
+     "montant": 5000
+    }
+   ],
+   "paye": 5000,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": "BP-2026-0093",
+   "beh": "BEH-2026-0032"
+  },
+  {
+   "num": "000005",
+   "date": "04/09/2026",
+   "heure": "09:14",
+   "nature": "Achat olive",
+   "tiers": "Slim Ben Salem",
+   "tiersType": "Fournisseur",
+   "cin": "01470137",
+   "matricule": "210 TU 1108",
+   "remarque": "",
+   "lignes": [
+    {
+     "depot": "TER-B",
+     "brut": 1250,
+     "vide": 150,
+     "caisses": 10,
+     "net": 1100,
+     "prixHuile": 2.45
+    }
+   ],
+   "reglements": [
+    {
+     "mode": "Espèces",
+     "montant": 2695
+    }
+   ],
+   "paye": 2695,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": null,
+   "beh": null
+  },
+  {
+   "num": "000004",
+   "date": "04/09/2026",
+   "heure": "08:02",
+   "nature": "Achat olive sur base huile",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "cin": "01470000",
+   "matricule": "148 TU 3620",
+   "remarque": "",
+   "lignes": [
+    {
+     "depot": "TER-A",
+     "brut": 4820,
+     "vide": 420,
+     "caisses": 28,
+     "net": 4400,
+     "prixHuile": 19.5
+    }
+   ],
+   "reglements": [],
+   "paye": 0,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": null,
+   "beh": null
+  },
+  {
+   "num": "000003",
+   "date": "03/09/2026",
+   "heure": "16:38",
+   "nature": "Trituration",
+   "tiers": "Ferme Ouled Amor",
+   "tiersType": "Client",
+   "cin": "0118447",
+   "matricule": "331 TU 2204",
+   "remarque": "Trituration à façon, huile restituée au client",
+   "lignes": [
+    {
+     "depot": "TER-C",
+     "brut": 2640,
+     "vide": 240,
+     "caisses": 16,
+     "net": 2400,
+     "prixHuile": 0.18
+    }
+   ],
+   "reglements": [
+    {
+     "mode": "Espèces",
+     "montant": 432
+    }
+   ],
+   "paye": 432,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": "BP-2026-0090",
+   "beh": "BEH-2026-0030"
+  },
+  {
+   "num": "000002",
+   "date": "03/09/2026",
+   "heure": "11:20",
+   "nature": "Achat olive",
+   "tiers": "Hédi Trabelsi",
+   "tiersType": "Fournisseur",
+   "cin": "01470274",
+   "matricule": "512 TU 7719",
+   "remarque": "Olives légèrement chômées",
+   "lignes": [
+    {
+     "depot": "TER-C",
+     "brut": 980,
+     "vide": 120,
+     "caisses": 8,
+     "net": 860,
+     "prixHuile": 2.15
+    }
+   ],
+   "reglements": [],
+   "paye": 0,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": null,
+   "beh": null
+  },
+  {
+   "num": "000001",
+   "date": "02/09/2026",
+   "heure": "09:30",
+   "nature": "Achat olive sur base huile",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "cin": "01470000",
+   "matricule": "148 TU 3620",
+   "remarque": "",
+   "lignes": [
+    {
+     "depot": "TER-A",
+     "brut": 5100,
+     "vide": 450,
+     "caisses": 30,
+     "net": 4650,
+     "prixHuile": 19.5
+    }
+   ],
+   "reglements": [
+    {
+     "mode": "Chèque",
+     "montant": 8000
+    }
+   ],
+   "paye": 8000,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026",
+   "annee": "2026",
+   "bp": "BP-2026-0089",
+   "beh": "BEH-2026-0031"
+  }
+ ],
+ "bonsProduction": [
+  {
+   "num": "BP-2026-0093",
+   "br": "000006",
+   "date": "05/09/2026",
+   "heure": "11:40",
+   "type": "Non Trituration",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "dateBR": "05/09/2026",
+   "qteOlives": 3500,
+   "qteHuile": 511,
+   "rendement": 14.6,
+   "grignons": 1225,
+   "noyaux": 270,
+   "margines": 1575,
+   "cout": 9964.5,
+   "cmp": 19.5,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BP-2026-0090",
+   "br": "000003",
+   "date": "03/09/2026",
+   "heure": "17:50",
+   "type": "Trituration",
+   "tiers": "Ferme Ouled Amor",
+   "tiersType": "Client",
+   "dateBR": "03/09/2026",
+   "qteOlives": 2400,
+   "qteHuile": 342,
+   "rendement": 14.25,
+   "grignons": 840,
+   "noyaux": 185,
+   "margines": 1080,
+   "cout": 432,
+   "cmp": 1.263,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BP-2026-0089",
+   "br": "000001",
+   "date": "03/09/2026",
+   "heure": "10:25",
+   "type": "Non Trituration",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "dateBR": "02/09/2026",
+   "qteOlives": 4650,
+   "qteHuile": 708.6,
+   "rendement": 15.24,
+   "grignons": 1628,
+   "noyaux": 358,
+   "margines": 2093,
+   "cout": 13817.7,
+   "cmp": 19.5,
+   "statut": "Validé",
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "behs": [
+  {
+   "num": "BEH-2026-0032",
+   "date": "05/09/2026",
+   "heure": "12:05",
+   "br": "000006",
+   "nature": "Production interne",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "transporteur": "Véhicules internes",
+   "matricule": "148 TU 3620",
+   "acidite": 0.26,
+   "k232": 1.82,
+   "k270": 0.14,
+   "organo": "EXTRA VIERGE",
+   "brut": 0,
+   "vide": 0,
+   "qteOlives": 3500,
+   "qteHuile": 511,
+   "rendement": 14.6,
+   "prixUnitaire": 19.5,
+   "prixTotal": 9964.5,
+   "pile": "P01",
+   "statut": "Validé",
+   "paye": true,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BEH-2026-0031",
+   "date": "03/09/2026",
+   "heure": "11:00",
+   "br": "000001",
+   "nature": "Production interne",
+   "tiers": "Coopérative Sahline",
+   "tiersType": "Fournisseur",
+   "transporteur": "Véhicules internes",
+   "matricule": "148 TU 3620",
+   "acidite": 0.24,
+   "k232": 1.76,
+   "k270": 0.12,
+   "organo": "EXTRA VIERGE",
+   "brut": 0,
+   "vide": 0,
+   "qteOlives": 4650,
+   "qteHuile": 708.6,
+   "rendement": 15.24,
+   "prixUnitaire": 19.5,
+   "prixTotal": 13817.7,
+   "pile": "P01",
+   "statut": "Validé",
+   "paye": true,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BEH-2026-0030",
+   "date": "03/09/2026",
+   "heure": "18:10",
+   "br": "000003",
+   "nature": "Production interne",
+   "tiers": "Ferme Ouled Amor",
+   "tiersType": "Client",
+   "transporteur": "Transport Sahline",
+   "matricule": "331 TU 2204",
+   "acidite": 0.62,
+   "k232": 2.14,
+   "k270": 0.19,
+   "organo": "VIERGE",
+   "brut": 0,
+   "vide": 0,
+   "qteOlives": 2400,
+   "qteHuile": 342,
+   "rendement": 14.25,
+   "prixUnitaire": 0,
+   "prixTotal": 0,
+   "pile": "P02",
+   "statut": "Validé",
+   "paye": true,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "BEH-2026-0029",
+   "date": "01/09/2026",
+   "heure": "14:20",
+   "br": null,
+   "nature": "Achat huile",
+   "tiers": "Huilerie El Fejja",
+   "tiersType": "Fournisseur",
+   "transporteur": "Trans Olive",
+   "matricule": "92 TU 4471",
+   "acidite": 0.31,
+   "k232": 1.91,
+   "k270": 0.15,
+   "organo": "EXTRA VIERGE",
+   "brut": 2560,
+   "vide": 160,
+   "qteOlives": 0,
+   "qteHuile": 2400,
+   "rendement": 0,
+   "prixUnitaire": 20,
+   "prixTotal": 48000,
+   "pile": "P03",
+   "statut": "Validé",
+   "paye": false,
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "grignons": [
+  {
+   "num": "GRG-2026-0021",
+   "date": "05/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "transporteur": "Trans Olive",
+   "matricule": "148 TU 3620",
+   "bl": "BL-G-00121",
+   "qte": 12400,
+   "pu": 0.08,
+   "total": 992,
+   "etat": "Livré",
+   "remarque": "Chargement du matin",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "GRG-2026-0020",
+   "date": "03/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "transporteur": "Trans Olive",
+   "matricule": "148 TU 3620",
+   "bl": "BL-G-00119",
+   "qte": 9800,
+   "pu": 0.08,
+   "total": 784,
+   "etat": "Livré",
+   "remarque": "",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "GRG-2026-0019",
+   "date": "01/09/2026",
+   "client": "Ferme Ouled Amor",
+   "transporteur": "Transport Sahline",
+   "matricule": "331 TU 2204",
+   "bl": "BL-G-00117",
+   "qte": 6200,
+   "pu": 0.075,
+   "total": 465,
+   "etat": "Livré",
+   "remarque": "Reprise par le client",
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "reglementsGrignons": [
+  {
+   "date": "05/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "montant": 1200,
+   "mode": "Espèces",
+   "ref": "—"
+  },
+  {
+   "date": "02/09/2026",
+   "client": "Ferme Ouled Amor",
+   "montant": 465,
+   "mode": "Virement",
+   "ref": "VIR-2026-0179"
+  }
+ ],
+ "noyaux": [
+  {
+   "num": "NOY-2026-0014",
+   "date": "04/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "transporteur": "Trans Olive",
+   "matricule": "210 TU 1108",
+   "bl": "BL-N-00042",
+   "qte": 3200,
+   "pu": 0.22,
+   "total": 704,
+   "etat": "Livré",
+   "remarque": "",
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "NOY-2026-0013",
+   "date": "31/08/2026",
+   "client": "Sté Grignons du Sahel",
+   "transporteur": "Trans Olive",
+   "matricule": "210 TU 1108",
+   "bl": "BL-N-00041",
+   "qte": 2600,
+   "pu": 0.22,
+   "total": 572,
+   "etat": "Livré",
+   "remarque": "",
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "reglementsNoyaux": [
+  {
+   "date": "04/09/2026",
+   "client": "Sté Grignons du Sahel",
+   "montant": 704,
+   "mode": "Chèque",
+   "ref": "CHQ-330214"
+  }
+ ],
+ "marginesEvac": [
+  {
+   "num": "MRG-2026-0032",
+   "date": "05/09/2026",
+   "fournisseur": "Trans Olive",
+   "transporteur": "Trans Olive",
+   "camion": "148 TU 3620",
+   "voyages": 3,
+   "prixVoyage": 45,
+   "total": 135,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "MRG-2026-0031",
+   "date": "03/09/2026",
+   "fournisseur": "Transport Sahline",
+   "transporteur": "Transport Sahline",
+   "camion": "331 TU 2204",
+   "voyages": 2,
+   "prixVoyage": 50,
+   "total": 100,
+   "saison": "Saison 2025/2026"
+  },
+  {
+   "num": "MRG-2026-0030",
+   "date": "01/09/2026",
+   "fournisseur": "Trans Olive",
+   "transporteur": "Trans Olive",
+   "camion": "148 TU 3620",
+   "voyages": 4,
+   "prixVoyage": 45,
+   "total": 180,
+   "saison": "Saison 2025/2026"
+  }
+ ],
+ "reglementsMargines": [
+  {
+   "date": "04/09/2026",
+   "fournisseur": "Trans Olive",
+   "montant": 180,
+   "mode": "Espèces",
+   "ref": "—"
+  }
+ ],
+ "soldesDepart": [
+  {
+   "journal": "Caisse espèces",
+   "date": "05/09/2026",
+   "montant": 8500
+  },
+  {
+   "journal": "Portefeuille chèques",
+   "date": "05/09/2026",
+   "montant": 0
+  }
+ ],
+ "correctionsCaisse": [
+  {
+   "num": "COR-2026-0007",
+   "date": "05/09/2026",
+   "journal": "Caisse espèces",
+   "solde": 0,
+   "validation": false,
+   "user": "Mohamed Ben Chaaben",
+   "motif": ""
+  },
+  {
+   "num": "COR-2026-0006",
+   "date": "04/09/2026",
+   "journal": "Caisse espèces",
+   "solde": -20,
+   "validation": true,
+   "user": "Mohamed Ben Chaaben",
+   "motif": "Erreur de rendu de monnaie au comptoir"
+  },
+  {
+   "num": "COR-2026-0005",
+   "date": "02/09/2026",
+   "journal": "Caisse espèces",
+   "solde": 15,
+   "validation": true,
+   "user": "Hana Mansour",
+   "motif": "Excédent constaté à la clôture"
+  }
+ ],
+ "reglementsPeriode": [
+  {
+   "num": "RGP-2026-0101",
+   "dateReglement": "31/08/2026",
+   "dateDe": "01/08/2026",
+   "jusqua": "31/08/2026",
+   "mat": "EMP-004",
+   "personnel": "Karim Jaziri",
+   "jours": 26,
+   "heures": 0,
+   "montant": 1690,
+   "mode": "Virement",
+   "saison": "Saison 2025/2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0102",
+   "dateReglement": "31/08/2026",
+   "dateDe": "01/08/2026",
+   "jusqua": "31/08/2026",
+   "mat": "EMP-011",
+   "personnel": "Sonia Kacem",
+   "jours": 24,
+   "heures": 0,
+   "montant": 1392,
+   "mode": "Virement",
+   "saison": "Saison 2025/2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0103",
+   "dateReglement": "31/08/2026",
+   "dateDe": "01/08/2026",
+   "jusqua": "31/08/2026",
+   "mat": "EMP-018",
+   "personnel": "Amine Gharbi",
+   "jours": 25,
+   "heures": 0,
+   "montant": 1050,
+   "mode": "Espèces",
+   "saison": "Saison 2025/2026",
+   "statut": "Payé"
+  },
+  {
+   "num": "RGP-2026-0104",
+   "dateReglement": "05/09/2026",
+   "dateDe": "01/09/2026",
+   "jusqua": "05/09/2026",
+   "mat": "EMP-032",
+   "personnel": "Nabil Ferchichi",
+   "jours": 0,
+   "heures": 23.6,
+   "montant": 129.8,
+   "mode": "Espèces",
+   "saison": "Saison 2025/2026",
+   "statut": "En attente"
+  }
+ ],
+ "conversions": [
+  {
+   "code": "CV-001",
+   "qteDe": 0.92,
+   "de": "Kilogramme",
+   "qteVers": 1,
+   "vers": "Litre",
+   "note": "Densité de l'huile d'olive"
+  },
+  {
+   "code": "CV-002",
+   "qteDe": 1,
+   "de": "Tonne",
+   "qteVers": 1000,
+   "vers": "Kilogramme",
+   "note": ""
+  },
+  {
+   "code": "CV-003",
+   "qteDe": 1,
+   "de": "Kilogramme",
+   "qteVers": 1000,
+   "vers": "Gramme",
+   "note": ""
+  },
+  {
+   "code": "CV-004",
+   "qteDe": 1,
+   "de": "Carton",
+   "qteVers": 12,
+   "vers": "Bouteille",
+   "note": "Carton standard"
+  }
+ ],
+ "typesProduction": [
+  {
+   "code": "TRT-FACON",
+   "libelle": "Trituration à façon",
+   "tiers": "Client",
+   "facturation": "Prestation au kilo d'olives",
+   "rendementCible": 14,
+   "description": "Le client apporte ses olives et récupère son huile ; l'huilerie facture le service.",
+   "actif": true
+  },
+  {
+   "code": "PROD-PROPRE",
+   "libelle": "Production propre",
+   "tiers": "Fournisseur",
+   "facturation": "Achat des olives ou du rendement huile",
+   "rendementCible": 14.5,
+   "description": "L'huilerie achète les olives, produit l'huile et la stocke en pile pour la revendre.",
+   "actif": true
+  }
+ ],
+ "_scalaires": {
+  "societe": {
+   "nom": "Huilerie Ben Chaaben",
+   "adresse": "Route de Kairouan Km 4, Zone industrielle — 4000 Sousse",
+   "tel": "+216 73 240 118",
+   "email": "contact@benchaaben.tn",
+   "mf": "1487962/A/M/000",
+   "rc": "B0912472026",
+   "banque": "BIAT — Agence Sousse Nord",
+   "rib": "08 041 0025874136952 47",
+   "tva": 19
+  },
+  "user": {
+   "nom": "Mohamed Ben Chaaben",
+   "role": "Directeur",
+   "initiales": "MB"
+  },
+  "campagnes": [
+   "Campagne 2025/2026",
+   "Campagne 2024/2025",
+   "Campagne 2023/2024"
+  ],
+  "sites": [
+   "Site de Sousse (principal)",
+   "Site de Kalâa Kebira",
+   "Tous les sites"
+  ],
+  "mois": [
+   "Oct",
+   "Nov",
+   "Déc",
+   "Jan",
+   "Fév",
+   "Mar",
+   "Avr",
+   "Mai",
+   "Juin",
+   "Juil",
+   "Août",
+   "Sep"
+  ],
+  "charts": {
+   "caMois": [
+    8400,
+    26900,
+    41200,
+    38600,
+    31500,
+    24800,
+    19700,
+    15300,
+    12400,
+    9800,
+    8600,
+    11450
+   ],
+   "achatsMois": [
+    21500,
+    34800,
+    29600,
+    18200,
+    9400,
+    6800,
+    5200,
+    4100,
+    3600,
+    3900,
+    4400,
+    6100
+   ],
+   "prodMois": [
+    620,
+    3180,
+    4260,
+    3540,
+    2380,
+    1620,
+    1180,
+    720,
+    340,
+    220,
+    180,
+    180
+   ],
+   "rendementCampagne": [
+    {
+     "k": "2021/22",
+     "v": 13.42
+    },
+    {
+     "k": "2022/23",
+     "v": 12.95
+    },
+    {
+     "k": "2023/24",
+     "v": 14.06
+    },
+    {
+     "k": "2024/25",
+     "v": 13.78
+    },
+    {
+     "k": "2025/26",
+     "v": 14.58
+    }
+   ],
+   "parVariete": [
+    {
+     "k": "Chemlali",
+     "v": 9840,
+     "c": "#23503A"
+    },
+    {
+     "k": "Chetoui",
+     "v": 4210,
+     "c": "#4C7B58"
+    },
+    {
+     "k": "Sahli",
+     "v": 2380,
+     "c": "#7A8B45"
+    },
+    {
+     "k": "Zalmati",
+     "v": 1290,
+     "c": "#d17e06"
+    },
+    {
+     "k": "Oueslati",
+     "v": 700,
+     "c": "#C9B27A"
+    }
+   ],
+   "stockRepartition": [
+    {
+     "k": "Huile en vrac",
+     "v": 32850,
+     "c": "#23503A"
+    },
+    {
+     "k": "Produits finis",
+     "v": 12450,
+     "c": "#4C7B58"
+    },
+    {
+     "k": "Olives",
+     "v": 8240,
+     "c": "#7A8B45"
+    },
+    {
+     "k": "Emballages",
+     "v": 45820,
+     "c": "#d17e06"
+    }
+   ],
+   "topClients": [
+    {
+     "k": "Sté Medoil Export",
+     "v": 62400
+    },
+    {
+     "k": "GMS Carrefour Sousse",
+     "v": 41850
+    },
+    {
+     "k": "Épicerie El Baraka",
+     "v": 28600
+    },
+    {
+     "k": "Restaurant Le Pressoir",
+     "v": 19240
+    },
+    {
+     "k": "Client comptoir",
+     "v": 16980
+    }
+   ],
+   "topFournisseurs": [
+    {
+     "k": "Coop. Sahline",
+     "v": 48200
+    },
+    {
+     "k": "Verger Ben Salem",
+     "v": 36400
+    },
+    {
+     "k": "Domaine El Kantaoui",
+     "v": 24900
+    },
+    {
+     "k": "Emballages Sud SA",
+     "v": 14600
+    },
+    {
+     "k": "Sté Trans Olive",
+     "v": 8300
+    }
+   ]
+  },
+  "traceLot": {
+   "LOT-2026-00145": {
+    "producteur": "Slim Ben Salem (PRD-014)",
+    "parcelle": "P-114 Oliveraie Nord — Sahline",
+    "variete": "Chemlali",
+    "qte": "1 100 kg",
+    "dateRec": "04/09/2026 09:14",
+    "analyse": "Humidité 48,2 % · Acidité 0,31 % · Conforme extra vierge",
+    "of": "OF-2026-0092 (en production)",
+    "huile": "160 L attendus",
+    "cond": "Non conditionné",
+    "clients": "—",
+    "livraisons": "—",
+    "factures": "—",
+    "chaine": [
+     {
+      "k": "Producteur",
+      "v": "Slim Ben Salem",
+      "icon": "user",
+      "d": "PRD-014 · Sahline · 14 apports cette campagne"
+     },
+     {
+      "k": "Parcelle",
+      "v": "P-114 Oliveraie Nord",
+      "icon": "map",
+      "d": "Chemlali · 3,2 ha · récolte du 03/09"
+     },
+     {
+      "k": "Réception",
+      "v": "REC-2026-00312",
+      "icon": "truck",
+      "d": "04/09/2026 09:14 · brut 1 250 kg · tare 150 kg · net 1 100 kg"
+     },
+     {
+      "k": "Lot olives",
+      "v": "LOT-2026-00145",
+      "icon": "package",
+      "d": "1 100 kg · magasin Matières premières · analyse en attente"
+     },
+     {
+      "k": "Production",
+      "v": "OF-2026-0092",
+      "icon": "factory",
+      "d": "Ligne A Pieralisi · en production depuis 10:05"
+     },
+     {
+      "k": "Lot huile",
+      "v": "LOT-H-2026-0092",
+      "icon": "droplet",
+      "d": "160 L attendus · cuve CV-06"
+     },
+     {
+      "k": "Conditionnement",
+      "v": "En attente",
+      "icon": "box",
+      "d": "Aucune opération de conditionnement enregistrée"
+     },
+     {
+      "k": "Produit fini",
+      "v": "—",
+      "icon": "tag",
+      "d": "Aucun produit fini issu de ce lot à ce jour"
+     },
+     {
+      "k": "Client",
+      "v": "—",
+      "icon": "users",
+      "d": "Aucun client concerné"
+     },
+     {
+      "k": "Livraison",
+      "v": "—",
+      "icon": "truck",
+      "d": "Aucun bon de livraison"
+     },
+     {
+      "k": "Facture",
+      "v": "—",
+      "icon": "receipt",
+      "d": "Aucune facture"
+     }
+    ]
+   },
+   "LOT-H-2026-0089": {
+    "producteur": "Coopérative Sahline (PRD-027)",
+    "parcelle": "Bloc A — Sahline",
+    "variete": "Chemlali",
+    "qte": "708,6 L",
+    "dateRec": "02/09/2026 09:30",
+    "analyse": "Acidité 0,24 % · Peroxyde 8,4 meq · Conforme extra vierge",
+    "of": "OF-2026-0089 (terminé, rendement 15,24 %)",
+    "huile": "708,6 L",
+    "cond": "296 L conditionnés — 240 bouteilles 0,75 L + 116 bouteilles 1 L",
+    "clients": "GMS Carrefour Sousse, Épicerie El Baraka",
+    "livraisons": "BL-2026-00612, BL-2026-00618",
+    "factures": "FAC-2026-00431, FAC-2026-00434",
+    "chaine": [
+     {
+      "k": "Producteur",
+      "v": "Coopérative Sahline",
+      "icon": "user",
+      "d": "PRD-027 · 26 apports · rendement moyen 14,2 %"
+     },
+     {
+      "k": "Parcelle",
+      "v": "Bloc A",
+      "icon": "map",
+      "d": "Chemlali · 12 ha · récolte du 01/09"
+     },
+     {
+      "k": "Réception",
+      "v": "REC-2026-00307",
+      "icon": "truck",
+      "d": "02/09/2026 09:30 · net 4 650 kg"
+     },
+     {
+      "k": "Lot olives",
+      "v": "LOT-2026-00140",
+      "icon": "package",
+      "d": "4 650 kg · consommé intégralement"
+     },
+     {
+      "k": "Production",
+      "v": "OF-2026-0089",
+      "icon": "factory",
+      "d": "Terminé le 03/09 · 708,6 L · rendement 15,24 %"
+     },
+     {
+      "k": "Lot huile",
+      "v": "LOT-H-2026-0089",
+      "icon": "droplet",
+      "d": "708,6 L · cuve CV-04 · reste 412,6 L"
+     },
+     {
+      "k": "Conditionnement",
+      "v": "COND-2026-0074",
+      "icon": "box",
+      "d": "296 L → 240 bt 0,75 L + 116 bt 1 L · 4,2 L de pertes"
+     },
+     {
+      "k": "Produit fini",
+      "v": "HEV-075 / HEV-100",
+      "icon": "tag",
+      "d": "Étiquetés le 03/09 · DLUO 09/2028"
+     },
+     {
+      "k": "Client",
+      "v": "2 clients livrés",
+      "icon": "users",
+      "d": "GMS Carrefour Sousse · Épicerie El Baraka"
+     },
+     {
+      "k": "Livraison",
+      "v": "BL-2026-00612, BL-2026-00618",
+      "icon": "truck",
+      "d": "Livrés les 04/09 et 05/09"
+     },
+     {
+      "k": "Facture",
+      "v": "FAC-2026-00431, FAC-2026-00434",
+      "icon": "receipt",
+      "d": "9 240,000 TND · une facture réglée, une en attente"
+     }
+    ]
+   }
+  },
+  "recus": [],
+  "base": {
+   "ca": 193867,
+   "olives": 111630,
+   "huile": 16472.5,
+   "creances": 11210,
+   "dettes": 18340,
+   "encaisse": 189600
+  },
+  "banques": [
+   "BIAT",
+   "Amen Bank",
+   "STB",
+   "BNA",
+   "Attijari Bank",
+   "UIB",
+   "Zitouna Bank"
+  ],
+  "modesPaiement": [
+   "Espèces",
+   "Chèque",
+   "Virement",
+   "Carte",
+   "Traite"
+  ],
+  "factureDetail": {
+   "num": "FAC-2026-00434",
+   "client": "GMS Carrefour Sousse",
+   "adresse": "Avenue Taïeb Mhiri, 4051 Sousse",
+   "mf": "0894471/B/N/000",
+   "date": "05/09/2026",
+   "echeance": "05/10/2026",
+   "conditions": "Règlement à 30 jours — virement bancaire",
+   "lignes": [
+    {
+     "d": "Huile extra vierge 0,75 L — LOT-H-2026-0089",
+     "q": 240,
+     "pu": 15.546,
+     "rem": 0
+    },
+    {
+     "d": "Huile extra vierge 1 L — LOT-H-2026-0089",
+     "q": 116,
+     "pu": 20.168,
+     "rem": 0
+    },
+    {
+     "d": "Huile extra vierge 2 L — LOT-H-2026-0086",
+     "q": 40,
+     "pu": 39.076,
+     "rem": 5
+    }
+   ]
+  },
+  "tresorerie": {
+   "solde": 86420.5,
+   "caisse": 12840.5,
+   "banque": 73580,
+   "recettes": 142380,
+   "depenses": 55960,
+   "creances": 48250,
+   "dettes": 31840
+  },
+  "fluxMois": {
+   "entrees": [
+    18400,
+    42600,
+    58200,
+    51300,
+    44800,
+    38200,
+    31400,
+    26800,
+    22100,
+    18600,
+    16400,
+    21800
+   ],
+   "sorties": [
+    24800,
+    38200,
+    41600,
+    29400,
+    21800,
+    17400,
+    14900,
+    12600,
+    11200,
+    10800,
+    11400,
+    13600
+   ]
+  },
+  "roles": [
+   "ADM",
+   "DIR",
+   "ACH",
+   "STK",
+   "MAG",
+   "PRD",
+   "OPR",
+   "QUA",
+   "COM",
+   "CPT",
+   "MNT"
+  ],
+  "permissions": [
+   [
+    "Utilisateurs",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Paramétrage",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Tableau de bord",
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    "Fournisseurs",
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Producteurs",
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Achats",
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Matières premières",
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Réception olives",
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    "Stock",
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Magasins",
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Production",
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Lots",
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    "Qualité",
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    "Conditionnement",
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Produits finis",
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    "Clients",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    "Ventes",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    "Livraisons",
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    "Facturation",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Paiements",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Trésorerie",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Dépenses",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Équipements",
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    "Maintenance",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    "Ressources humaines",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "Comptabilité",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "Transports",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    "Reporting",
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    "Notifications",
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   [
+    "Journal d'audit",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "caisseInitial": 8500,
+  "naturesBR": [
+   "Achat olive sur base huile",
+   "Achat olive",
+   "Trituration"
+  ],
+  "naturesBEH": [
+   "Achat huile",
+   "Production interne",
+   "Retour de pile"
+  ]
+ }
+}
